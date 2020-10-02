@@ -4,8 +4,11 @@ Please, do not fill main() with functions,
 but rather create new class for each feature.
 */
 
+const HELLO = require('./hello.js')
+
 const main = () => {
   console.log('Hello world!')
+  HELLO.sayHello()
 }
 
 main()
