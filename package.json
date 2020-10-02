@@ -1,0 +1,27 @@
+{
+  "name": "master.git",
+  "version": "1.0.0",
+  "description": "Team exercise for the course 4A00EZ62-3001 Backend SWDevel held in TAMK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salter19/VersionControlProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salter19/VersionControlProject/issues"
+  },
+  "homepage": "https://github.com/salter19/VersionControlProject#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
