@@ -1,5 +1,5 @@
 class Hello {
-  sayHello () {
+  static sayHello () {
     console.log('Hey mates! Let\'s rock this boat!')
   }
 }
