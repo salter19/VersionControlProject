@@ -15,7 +15,7 @@ class Hello {
     console.log('Cheese!');
   }
   static sayGoodNightInGreek() {
-      console.log('Kalinihta!')
+      return'Kalinihta!'
   }
 }
 
