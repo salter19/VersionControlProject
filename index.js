@@ -12,6 +12,7 @@ const main = () => {
 
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodNightInGreek())
+  console.log(HELLO.upTheIrons())
   
   console.log(MATH.sum(5, 5))
 }
