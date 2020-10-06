@@ -9,7 +9,7 @@ class Hello {
     return 'GOODBYE!'
   }
   static upTheIrons() {
-    console.log('Up The Irons!');
+    return 'Up The Irons!'
   }
   static sayCheese() {
     console.log('Cheese!');
