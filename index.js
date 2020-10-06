@@ -10,6 +10,7 @@ const MATH = require('./mathutils.js')
 const main = () => {
   console.log('Hello world!')
   HELLO.sayHello()
+  MATH.sum(5, 5)
 }
 
 main()
