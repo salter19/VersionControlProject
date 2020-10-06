@@ -4,7 +4,7 @@ class Hello {
   }
   static sayGoodbye() {
     console.log('Goodbye!');
-  }  
+    
 }
 
 module.exports = Hello
