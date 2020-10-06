@@ -5,11 +5,15 @@ but rather create new class for each feature.
 */
 
 const HELLO = require('./hello.js')
+const MATH = require('./mathutils.js')
 
 const main = () => {
   console.log('Hello world!')
+
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodNightInGreek())
+  
+  console.log(MATH.sum(5, 5))
 }
 
 main()
