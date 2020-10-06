@@ -13,7 +13,10 @@ class Hello {
   }
   static sayCheese() {
     console.log('Cheese!');
-  } 
+  }
+  static sayGoodNightInGreek() {
+      console.log('Kalinihta!')
+  }
 }
 
 module.exports = Hello
