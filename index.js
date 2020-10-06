@@ -14,6 +14,7 @@ const main = () => {
   console.log(HELLO.sayGoodNightInGreek())
   
   console.log(MATH.sum(5, 5))
+  console.log(MATH.divide(10, 5))
 }
 
 main()
