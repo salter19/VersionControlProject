@@ -6,7 +6,7 @@ class MathUtils {
 
   static divide (a, b) {
     console.log(a + ' / ' + b)
-    return 'Divicion is ' + (a / b)
+    return 'Division is ' + (a / b)
   }
 }
 
