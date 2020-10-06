@@ -5,6 +5,7 @@ but rather create new class for each feature.
 */
 
 const HELLO = require('./hello.js')
+const MATH = require('./mathutils.js')
 
 const main = () => {
   console.log('Hello world!')
