@@ -7,6 +7,9 @@ class Hello {
   }
   static yellGoodbye() {
     console.log('GOODBYE!');
+  }
+  static upTheIrons() {
+    console.log('Up The Irons!');
   } 
 }
 
