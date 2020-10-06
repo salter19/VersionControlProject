@@ -8,6 +8,9 @@ class MathUtils {
     console.log(a + ' / ' + b)
     return 'Division is ' + (a / b)
   }
+
+  static abs (a) {
+  }
 }
 
 module.exports = MathUtils
