@@ -10,6 +10,9 @@ class Hello {
   }
   static upTheIrons() {
     console.log('Up The Irons!');
+  }
+  static sayCheese() {
+    console.log('Cheese!');
   } 
 }
 
