@@ -4,6 +4,9 @@ class Hello {
   }
   static sayGoodbye() {
     console.log('Goodbye!');
+  }
+  static yellGoodbye() {
+    console.log('GOODBYE!');
   } 
 }
 
