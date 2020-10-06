@@ -3,7 +3,7 @@ class Hello {
     return 'Hey mates! Let\'s rock this boat!'
   }
   static sayGoodbye() {
-    console.log('Goodbye!');
+    return 'Goodbye!'
   }
   static yellGoodbye() {
     console.log('GOODBYE!');
