@@ -12,7 +12,7 @@ class Hello {
     return 'Up The Irons!'
   }
   static sayCheese() {
-    console.log('Cheese!');
+    return 'Cheese!'
   }
   static sayGoodNightInGreek() {
       return'Kalinihta!'
