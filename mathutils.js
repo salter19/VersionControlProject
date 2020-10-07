@@ -4,6 +4,10 @@ class MathUtils {
     return 'Sum is ' + (a + b)
   }
 
+  static sumMore (a, b, c) {
+    
+  }
+
   static subtract (a, b) {
     console.log(a + ' - ' + b)
     return 'Result is ' + (a - b)
