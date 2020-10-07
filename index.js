@@ -12,6 +12,9 @@ const main = () => {
 
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodNightInGreek())
+  HELLO.getGreeting(42)
+  HELLO.getGreeting('otto')
+  HELLO.getGreeting(4.2)
 
   console.log(HELLO.upTheIrons())  
 
