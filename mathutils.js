@@ -19,10 +19,10 @@ class MathUtils {
   }
 
   static abs (a) {
-    if(a >= 0) {
+    if (a >= 0) {
       console.log(a)
-    } else{
-      console.log(a*-1)
+    } else {
+      console.log(a * -1)
     }
   }
 }
