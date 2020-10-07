@@ -5,7 +5,7 @@ class MathUtils {
   }
 
   static sumMore (a, b, c) {
-    
+    console.log(a + ' + ' + b + ' + ' + c)
   }
 
   static subtract (a, b) {
