@@ -22,6 +22,9 @@ const main = () => {
 
   console.log(MATH.sum(5, 5))
   console.log(MATH.divide(10, 5))
+  console.log(MATH.abs(3))
+  console.log(MATH.abs(-3))
+  console.log(MATH.hypotenuse(3, 4))
 }
 
 main()

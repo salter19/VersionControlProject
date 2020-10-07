@@ -19,6 +19,15 @@ class MathUtils {
   }
 
   static abs (a) {
+    if (a >= 0) {
+      return 'absolute of ' + a + ' is ' + a
+    } else {
+      return 'absolute of ' + a + ' is ' + a * -1
+    }
+  }
+
+  static hypotenuse (stem, height) {
+    return Math.sqrt(Math.pow(stem, 2) + Math.pow(height, 2))
   }
 }
 
