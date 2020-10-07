@@ -5,7 +5,7 @@ class MathUtils {
   }
 
   static subtract (a, b) {
-    
+    console.log(a + ' - ' + b)
   }
 
   static divide (a, b) {
