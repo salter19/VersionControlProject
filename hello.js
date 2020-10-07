@@ -2,26 +2,36 @@ class Hello {
   static sayHello () {
     return 'Hey mates! Let\'s rock this boat!'
   }
-  static sayGoodbye() {
+
+  static sayGoodbye () {
     return 'Goodbye!'
   }
-  static yellGoodbye() {
+
+  static yellGoodbye () {
     return 'GOODBYE!'
   }
-  static upTheIrons() {
+
+  static upTheIrons () {
     return 'Up The Irons!'
   }
-  static sayCheese() {
+
+  static sayCheese () {
     return 'Cheese!'
   }
-  static sayGoodNightInGreek() {
-    return'Kalinihta!'
+
+  static sayGoodNightInGreek () {
+    return 'Kalinihta!'
   }
 
   static getGreeting (option) {
+    const value = (!isNaN(option) && Number.isInteger(option)) ? option : -1
 
-      const value = (!isNaN(option) && Number.isInteger(option)) ? option : -1
-      console.log(value)
+      const result = value === 1 ? this.sayCheese() :
+	    value === 2 ? this.sayHello() :
+	    value === 666 ? this.upTheIrons() :
+	    'Could not compute given value.'
+      
+    return result
   }
 }
 
