@@ -4,6 +4,10 @@ class MathUtils {
     return 'Sum is ' + (a + b)
   }
 
+  static subtract (a, b) {
+    
+  }
+
   static divide (a, b) {
     console.log(a + ' / ' + b)
     return 'Division is ' + (a / b)
