@@ -26,11 +26,14 @@ class Hello {
   static getGreeting (option) {
     const value = (!isNaN(option) && Number.isInteger(option)) ? option : -1
 
-      const result = value === 1 ? this.sayCheese() :
-	    value === 2 ? this.sayHello() :
-	    value === 666 ? this.upTheIrons() :
-	    'Could not compute given value.'
-      
+    const result = value === 1 ? this.sayCheese()
+      : value === 2 ? this.sayHello()
+        : value === 3 ? this.sayGoodNightInGreek()
+          : value === 4 ? this.sayGoodbye()
+            : value === 666 ? this.upTheIrons()
+              : value === 42 ? this.yellGoodbye()
+                : 'Could not compute given value.'
+
     return result
   }
 }
