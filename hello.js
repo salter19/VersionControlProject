@@ -3,16 +3,16 @@ class Hello {
     return 'Hey mates! Let\'s rock this boat!'
   }
   static sayGoodbye() {
-    console.log('Goodbye!');
+    return 'Goodbye!'
   }
   static yellGoodbye() {
-    console.log('GOODBYE!');
+    return 'GOODBYE!'
   }
   static upTheIrons() {
-    console.log('Up The Irons!');
+    return 'Up The Irons!'
   }
   static sayCheese() {
-    console.log('Cheese!');
+    return 'Cheese!'
   }
   static sayGoodNightInGreek() {
       return'Kalinihta!'
