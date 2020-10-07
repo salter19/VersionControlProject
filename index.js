@@ -12,11 +12,13 @@ const main = () => {
 
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodNightInGreek())
-  HELLO.getGreeting(42)
-  HELLO.getGreeting('otto')
-  HELLO.getGreeting(4.2)
+  console.log('\n' + '-'.repeat(3) + '\nget greeting:')
+  console.log(HELLO.getGreeting(42))
+  console.log(HELLO.getGreeting(666))
+    console.log(HELLO.getGreeting(1))
+  console.log('-'.repeat(3) + '\n')
 
-  console.log(HELLO.upTheIrons())  
+  console.log(HELLO.upTheIrons())
 
   console.log(MATH.sum(5, 5))
   console.log(MATH.divide(10, 5))
