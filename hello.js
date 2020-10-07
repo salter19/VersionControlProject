@@ -32,7 +32,7 @@ class Hello {
         : value === 3 ? this.sayGoodNightInGreek()
           : value === 4 ? this.sayGoodbye()
             : value === 666 ? this.upTheIrons()
-              : value === 42 ? this.yellGoodbye()
+              : value === 42 ? this.yell(this.sayGoodbye())
                 : 'Could not compute given value.'
 
     return result
