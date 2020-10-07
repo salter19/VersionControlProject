@@ -26,7 +26,7 @@ class MathUtils {
     }
   }
 
-  static hypotenuse(stem, height) {
+  static hypotenuse (stem, height) {
     console.log(Math.sqrt(Math.pow(stem, 2) + Math.pow(height, 2)))
   }
 }
