@@ -25,6 +25,10 @@ class MathUtils {
       return a * -1
     }
   }
+
+  static hypotenuse(stem, height) {
+    console.log(Math.sqrt(Math.pow(stem, 2) + Math.pow(height, 2)))
+  }
 }
 
 module.exports = MathUtils
