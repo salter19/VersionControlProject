@@ -19,7 +19,8 @@ class Hello {
   }
 
   static getGreeting (option) {
-      const value = (isNaN(option) || Number.isInteger(option)) ? -1 : option
+
+      const value = (!isNaN(option) && Number.isInteger(option)) ? option : -1
       console.log(value)
   }
 }
