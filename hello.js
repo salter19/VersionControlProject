@@ -1,4 +1,5 @@
 class Hello {
+  
   static sayHello () {
     return 'Hey mates! Let\'s rock this boat!'
   }
@@ -17,6 +18,10 @@ class Hello {
 
   static sayGoodNightInGreek () {
     return 'Kalinihta!'
+  }
+
+  static yell(method) {
+    return method.toUpperCase()
   }
 
   static getGreeting (option) {
