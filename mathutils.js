@@ -20,9 +20,9 @@ class MathUtils {
 
   static abs (a) {
     if (a >= 0) {
-      console.log(a)
+      return a
     } else {
-      console.log(a * -1)
+      return a * -1
     }
   }
 }
