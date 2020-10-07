@@ -15,7 +15,12 @@ class Hello {
     return 'Cheese!'
   }
   static sayGoodNightInGreek() {
-      return'Kalinihta!'
+    return'Kalinihta!'
+  }
+
+  static getGreeting (option) {
+      const value = (isNaN(option) || Number.isInteger(option)) ? -1 : option
+      console.log(value)
   }
 }
 
