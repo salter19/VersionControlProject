@@ -6,11 +6,7 @@ class Hello {
   static sayGoodbye () {
     return 'Goodbye!'
   }
-
-  static yellGoodbye () {
-    return 'GOODBYE!'
-  }
-
+  
   static upTheIrons () {
     return 'Up The Irons!'
   }
