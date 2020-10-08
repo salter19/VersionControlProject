@@ -21,6 +21,7 @@ const main = () => {
   console.log(HELLO.upTheIrons())
 
   console.log(MATH.sum(5, 5))
+  console.log(MATH.sumMore(10, 10, 10))
   console.log(MATH.divide(10, 5))
   console.log(MATH.abs(3))
   console.log(MATH.abs(-3))
