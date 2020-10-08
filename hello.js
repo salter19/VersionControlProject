@@ -21,7 +21,17 @@ class Hello {
   }
 
   static yell(method) {
-    return method.toUpperCase()
+    let str = method
+    /* if the last character is not "." or "!" 
+       then ! will be added
+    */
+    let ending = '!'
+    if (str.charAt(str.length-1)==='!') {
+      ending = ''
+    } else if (str.charAt(str.length-1)==='.') {
+      ending=''
+    }
+    return str.toUpperCase()+ending
   }
 
   static getGreeting (input) {
