@@ -19,6 +19,8 @@ const main = () => {
   console.log('-'.repeat(3) + '\n')
 
   console.log(HELLO.upTheIrons())
+  console.log(HELLO.yell('this is a custom message.'))
+
 
   console.log(MATH.sum(5, 5))
   console.log(MATH.divide(10, 5))
