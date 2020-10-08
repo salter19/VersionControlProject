@@ -26,6 +26,7 @@ class Hello {
 
   static getGreeting (input) {
     const value = (!isNaN(input) && Number.isInteger(input)) ? input : -1
+    let foundIt = false
     let result = -1
 
     const options = {
@@ -37,9 +38,14 @@ class Hello {
       42: this.yell(this.sayGoodbye())
     }
 
+
     for (let opt in options) {
-      console.log(Number(opt) + '|' + value)
-      Number(opt) === value ? result = options[opt] : result = 'Could not compute given value.'
+      Number(opt) === value ? foundIt = true 
+        : foundIt ? foundIt = true : foundIt = false
+    }
+
+    if (foundIt) {
+      result = options[value]
     }
 
     return result
