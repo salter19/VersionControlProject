@@ -20,7 +20,7 @@ const main = () => {
 
   console.log(HELLO.upTheIrons())
   console.log(HELLO.yell('this is a custom message.'))
-  console.log(HELLO.yell('help i cant stop screaming'))
+  console.log(HELLO.yell('help i can\'t stop screaming'))
 
   console.log(MATH.sum(5, 5))
   console.log(MATH.divide(10, 5))
