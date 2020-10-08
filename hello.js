@@ -44,9 +44,7 @@ class Hello {
         : foundIt ? foundIt = true : foundIt = false
     }
 
-    if (foundIt) {
-      result = options[value]
-    }
+    foundIt ? result = options[value] : result = 'Could not compute given value.'
 
     return result
   }
