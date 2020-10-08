@@ -30,6 +30,10 @@ class MathUtils {
   static hypotenuse (stem, height) {
     return Math.sqrt(Math.pow(stem, 2) + Math.pow(height, 2))
   }
+
+  static poweroftwo (a) {
+
+  }
 }
 
 module.exports = MathUtils
