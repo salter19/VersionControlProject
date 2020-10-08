@@ -24,8 +24,8 @@ class Hello {
     return method.toUpperCase()
   }
 
-  static getGreeting (option) {
-    const value = (!isNaN(option) && Number.isInteger(option)) ? option : -1
+  static getGreeting (input) {
+    const value = (!isNaN(input) && Number.isInteger(input)) ? input : -1
 
     const result = value === 1 ? this.sayCheese()
       : value === 2 ? this.sayHello()
