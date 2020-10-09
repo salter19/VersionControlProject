@@ -29,7 +29,7 @@ const main = () => {
   console.log(MATH.hypotenuse(3, 4))
   console.log(MATH.poweroftwo(3))
 
-  console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2)))+'CRUEL WORLD!')
+  console.log(HELLO.yell(HELLO.getGreeting(parseInt(MATH.sum(40, 2))))+'CRUEL WORLD!')
 }
 
 main()
