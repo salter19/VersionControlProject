@@ -11,7 +11,7 @@ const main = () => {
   console.log('Hello world!')
 
   console.log(HELLO.sayHello())
-  console.log(HELLO.sayGoodNightInGreek())
+  console.log(HELLO.sayGoodnightInGreek())
   console.log('\n' + '-'.repeat(3) + '\nget greeting:')
   console.log(HELLO.getGreeting(42))
   console.log(HELLO.yell(HELLO.getGreeting(666)))
