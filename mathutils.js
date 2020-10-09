@@ -19,6 +19,10 @@ class MathUtils {
     return 'Division is ' + (a / b)
   }
 
+  static multiply (a, b) {
+    
+  }
+
   static abs (a) {
     if (a >= 0) {
       return 'absolute of ' + a + ' is ' + a
