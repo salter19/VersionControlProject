@@ -45,7 +45,7 @@ class Hello {
       3: this.sayGoodnightInGreek(),
       4: this.sayGoodbye(),
       666: this.upTheIrons(),
-      42: this.yell(this.sayGoodbye())
+      42: this.sayGoodbye()
     }
 
     // if given value is found in options, foundIt is set true.
