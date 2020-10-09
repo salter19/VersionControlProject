@@ -20,15 +20,15 @@ class MathUtils {
   }
 
   static multiply (a, b) {
-    console.log(a + ' / ' + b)
-    return 'result is ' + (a * b)
+    console.log(a + ' * ' + b)
+    return 'Result is ' + (a * b)
   }
 
   static abs (a) {
     if (a >= 0) {
-      return 'absolute of ' + a + ' is ' + a
+      return 'Absolute of ' + a + ' is ' + a
     } else {
-      return 'absolute of ' + a + ' is ' + a * -1
+      return 'Absolute of ' + a + ' is ' + a * -1
     }
   }
 
