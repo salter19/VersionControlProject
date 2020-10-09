@@ -26,6 +26,7 @@ const main = () => {
   console.log(MATH.abs(3))
   console.log(MATH.abs(-3))
   console.log(MATH.hypotenuse(3, 4))
+  console.log(MATH.poweroftwo(3))
 
   console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2)))+'CRUEL WORLD!')
 }
