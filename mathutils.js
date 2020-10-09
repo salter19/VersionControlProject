@@ -20,7 +20,7 @@ class MathUtils {
   }
 
   static multiply (a, b) {
-    console.log(a + " / " + b)
+    console.log(a + ' / ' + b)
   }
 
   static abs (a) {
