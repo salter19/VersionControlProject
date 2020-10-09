@@ -27,8 +27,8 @@ const main = () => {
   console.log(MATH.divide(10, 5))
   console.log(MATH.abs(3))
   console.log(MATH.abs(-3))
-  console.log(MATH.hypotenuse(3, 4))
-  console.log(MATH.stemOrHeight(5, 3))
+  console.log('Hypotenuse of a right triangle (3, 4) is : ' + MATH.hypotenuse(3, 4))
+  console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
   console.log(MATH.poweroftwo(3))
 }
 
