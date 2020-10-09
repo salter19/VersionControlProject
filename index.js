@@ -20,6 +20,7 @@ const main = () => {
 
   console.log(HELLO.yell('this is a custom message.'))
   console.log(HELLO.yell('help i can\'t stop screaming'))
+  console.log(MATH.sum(40, 2))
 
   console.log(MATH.sum(5, 5))
   console.log(MATH.sumMore(10, 10, 10))
