@@ -48,7 +48,8 @@ class Hello {
       42: this.yell(this.sayGoodbye())
     }
 
-
+    // if given value is found in options, foundIt is set true.
+    // if foundIt is already true, it can't be set to false again
     for (let opt in options) {
       Number(opt) === value ? foundIt = true 
         : foundIt ? foundIt = true : foundIt = false
