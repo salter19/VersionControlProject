@@ -20,6 +20,7 @@ const main = () => {
 
   console.log(HELLO.yell('this is a custom message.'))
   console.log(HELLO.yell('help i can\'t stop screaming'))
+  console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2))) + 'CRUEL WORLD!')
 
   console.log(MATH.sum(5, 5))
   console.log(MATH.sumMore(10, 10, 10))
@@ -27,9 +28,8 @@ const main = () => {
   console.log(MATH.abs(3))
   console.log(MATH.abs(-3))
   console.log(MATH.hypotenuse(3, 4))
+  console.log(MATH.stemOrHeight(5, 3))
   console.log(MATH.poweroftwo(3))
-
-  console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2)))+'CRUEL WORLD!')
 }
 
 main()
