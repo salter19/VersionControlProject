@@ -26,9 +26,9 @@ class MathUtils {
 
   static abs (a) {
     if (a >= 0) {
-      return 'Absolute of ' + a + ' is ' + a
+      return a
     } else {
-      return 'Absolute of ' + a + ' is ' + a * -1
+      return a * -1
     }
   }
 
