@@ -16,6 +16,7 @@ const main = () => {
   console.log(HELLO.getGreeting(42))
   console.log(HELLO.yell(HELLO.getGreeting(666)))
   console.log(HELLO.getGreeting(1))
+  console.log(HELLO.feelTheGame())
   console.log('-'.repeat(3) + '\n')
 
   console.log(HELLO.yell('this is a custom message.'))
