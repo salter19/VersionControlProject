@@ -39,6 +39,9 @@ class MathUtils {
     return Math.sqrt(Math.pow(hypotenuse, 2) - Math.pow(side, 2))
   }
 
+  static rightTriagleArea (stem, height) {
+  }
+
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
