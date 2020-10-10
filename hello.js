@@ -13,7 +13,7 @@ class Hello {
   }
 
   static sayCheese () {
-    return 'Cheese!'
+    return 'Cheese'
   }
 
   static sayGoodnightInGreek () {
