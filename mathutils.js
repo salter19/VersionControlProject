@@ -21,7 +21,7 @@ class MathUtils {
 
   static multiply (a, b) {
     console.log(a + ' / ' + b)
-    return "result is " + (a * b)
+    return 'result is ' + (a * b)
   }
 
   static abs (a) {
