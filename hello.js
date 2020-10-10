@@ -1,5 +1,4 @@
 class Hello {
-  
   static sayHello () {
     return 'Hey mates! Let\'s rock this boat!'
   }
@@ -7,7 +6,7 @@ class Hello {
   static sayGoodbye () {
     return 'Bye Bye!'
   }
-  
+
   static upTheIrons () {
     return 'Up The Irons!'
   }
@@ -20,18 +19,18 @@ class Hello {
     return 'Kalinihta!'
   }
 
-  static yell(method) {
-    let str = method
-    /* if the last character is not "." or "!" 
+  static yell (method) {
+    const str = method
+    /* if the last character is not "." or "!"
        then ! will be added
     */
     let ending = '!'
-    if (str.charAt(str.length-1)==='!') {
+    if (str.charAt(str.length - 1) === '!') {
       ending = ''
-    } else if (str.charAt(str.length-1)==='.') {
-      ending=''
+    } else if (str.charAt(str.length - 1) === '.') {
+      ending = ''
     }
-    return str.toUpperCase()+ending
+    return str.toUpperCase() + ending
   }
 
   static getGreeting (input) {
@@ -59,6 +58,10 @@ class Hello {
 
     return result
   }
+
+    static feelTheGame () {
+	return this.yell('Tappara!')
+    }
 }
 
 module.exports = Hello
