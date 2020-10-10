@@ -4,7 +4,7 @@ class MathUtils {
     return 'Sum is ' + (a + b)
   }
 
-  static sumMore (a, b, c) {
+  static sumOfThree (a, b, c) {
     // console.log(a + ' + ' + b + ' + ' + c)
     return 'Sum is ' + (a + b + c)
   }
