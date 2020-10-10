@@ -5,7 +5,7 @@ class MathUtils {
   }
 
   static sumMore (a, b, c) {
-    console.log(a + ' + ' + b + ' + ' + c)
+    // console.log(a + ' + ' + b + ' + ' + c)
     return 'Sum is ' + (a + b + c)
   }
 
