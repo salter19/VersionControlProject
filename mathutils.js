@@ -15,8 +15,7 @@ class MathUtils {
   }
 
   static divide (a, b) {
-    console.log(a + ' / ' + b)
-    return 'Division is ' + (a / b)
+    return (a / b)
   }
 
   static multiply (a, b) {
