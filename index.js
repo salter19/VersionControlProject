@@ -16,6 +16,7 @@ const main = () => {
   console.log(HELLO.getGreeting(42))
   console.log(HELLO.yell(HELLO.getGreeting(666)))
   console.log(HELLO.getGreeting(1))
+  console.log(HELLO.feelTheGame())
   console.log('-'.repeat(3) + '\n')
 
   console.log(HELLO.yell('Is this is a custom message?'))
@@ -36,10 +37,9 @@ const main = () => {
   console.log('Hypotenuse of a right triangle (3, 4) is : ' + MATH.hypotenuse(3, 4))
   console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
   console.log(MATH.poweroftwo(3))
-<<<<<<< HEAD
-=======
 
->>>>>>> Lauri
+  console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2))) + 'CRUEL WORLD!')
+
 }
 
 main()
