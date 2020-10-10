@@ -56,6 +56,10 @@ class Hello {
 
     return result
   }
+
+    static feelTheGame () {
+	return this.yell('Tappara!')
+    }
 }
 
 module.exports = Hello
