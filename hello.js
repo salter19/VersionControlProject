@@ -5,7 +5,7 @@ class Hello {
   }
 
   static sayGoodbye () {
-    return 'Goodbye!'
+    return 'Bye Bye!'
   }
   
   static upTheIrons () {
@@ -13,7 +13,7 @@ class Hello {
   }
 
   static sayCheese () {
-    return 'Cheese!'
+    return 'Cheese'
   }
 
   static sayGoodnightInGreek () {
@@ -45,7 +45,7 @@ class Hello {
       3: this.sayGoodnightInGreek(),
       4: this.sayGoodbye(),
       666: this.upTheIrons(),
-      42: this.yell(this.sayGoodbye())
+      42: this.sayGoodbye()
     }
 
     // if given value is found in options, foundIt is set true.
