@@ -23,10 +23,11 @@ const main = () => {
   console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2))) + 'CRUEL WORLD!')
 
   console.log(MATH.sum(5, 5))
-  console.log(MATH.sumOfThree(10, 10, 10))
-  console.log(MATH.divide(10, 5))
-  console.log(MATH.abs(3))
-  console.log(MATH.abs(-3))
+  console.log(MATH.sumMore(10, 10, 10))
+  console.log('Division of 10/5 is: ' + MATH.divide(10, 5))
+  console.log('Absolute of 3 is: ' + MATH.abs(3))
+  console.log('Absolute of -3 is: ' + MATH.abs(-3))
+
   console.log('Hypotenuse of a right triangle (3, 4) is : ' + MATH.hypotenuse(3, 4))
   console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
   console.log(MATH.poweroftwo(3))

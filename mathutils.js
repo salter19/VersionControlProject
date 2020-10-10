@@ -15,8 +15,7 @@ class MathUtils {
   }
 
   static divide (a, b) {
-    console.log(a + ' / ' + b)
-    return 'Division is ' + (a / b)
+    return (a / b)
   }
 
   static multiply (a, b) {
@@ -38,6 +37,9 @@ class MathUtils {
 
   static stemOrHeight (hypotenuse, side) {
     return Math.sqrt(Math.pow(hypotenuse, 2) - Math.pow(side, 2))
+  }
+
+  static rightTriagleArea (stem, height) {
   }
 
   static poweroftwo (a) {
