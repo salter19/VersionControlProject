@@ -12,7 +12,7 @@ class Hello {
   }
 
   static sayCheese () {
-    return 'Cheese'
+    return 'Orange'
   }
 
   static sayGoodnightInGreek () {
