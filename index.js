@@ -16,7 +16,7 @@ const main = () => {
   console.log('\n' + '-'.repeat(3) + '\nget greeting:')
   console.log(HELLO.getGreeting(42))
   console.log(HELLO.yell(HELLO.getGreeting(666)))
-  console.log(HELLO.getGreeting(1))
+  console.log((HELLO.yell(HELLO.getGreeting(1)).repeat(3)))
   console.log(HELLO.feelTheGame())
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log('-'.repeat(3) + '\n')
