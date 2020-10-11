@@ -12,11 +12,13 @@ const main = () => {
 
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodnightInGreek())
+
   console.log('\n' + '-'.repeat(3) + '\nget greeting:')
   console.log(HELLO.getGreeting(42))
   console.log(HELLO.yell(HELLO.getGreeting(666)))
   console.log(HELLO.getGreeting(1))
   console.log(HELLO.feelTheGame())
+  console.log(HELLO.feelTheGame() * MATH.powerOfTwo(2))
   console.log('-'.repeat(3) + '\n')
 
   console.log(HELLO.yell('Is this is a custom message?'))
@@ -26,7 +28,7 @@ const main = () => {
 
 
   console.log('+'.repeat(3) + '\n')
-   
+
   console.log(MATH.sum(40, 2))
 
   console.log(MATH.sum(5, 5))
