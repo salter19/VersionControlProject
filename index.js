@@ -41,8 +41,6 @@ const main = () => {
   console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
   console.log(MATH.poweroftwo(3))
 
-  console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2))) + 'CRUEL WORLD!')
-
 }
 
 main()
