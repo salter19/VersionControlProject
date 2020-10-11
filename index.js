@@ -18,7 +18,7 @@ const main = () => {
   console.log(HELLO.yell(HELLO.getGreeting(666)))
   console.log(HELLO.getGreeting(1))
   console.log(HELLO.feelTheGame())
-  console.log(HELLO.feelTheGame() * MATH.sum(2, 40))
+  console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log('-'.repeat(3) + '\n')
 
   console.log(HELLO.yell('Is this is a custom message?'))
