@@ -31,6 +31,7 @@ const main = () => {
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
+  console.log(MATH.multiply(5, 120))
   console.log('Division of 10/5 is: ' + MATH.divide(10, 5))
   console.log('Absolute of 3 is: ' + MATH.abs(3))
   console.log('Absolute of -3 is: ' + MATH.abs(-3))
