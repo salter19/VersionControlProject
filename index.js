@@ -8,7 +8,7 @@ const HELLO = require('./hello.js')
 const MATH = require('./mathutils.js')
 
 const main = () => {
-  console.log('Hello World!')
+  console.log(HELLO.yell('Hello World!'))
 
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodnightInGreek())
