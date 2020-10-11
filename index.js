@@ -8,7 +8,7 @@ const HELLO = require('./hello.js')
 const MATH = require('./mathutils.js')
 
 const main = () => {
-  console.log('Hello World!')
+  console.log(HELLO.yell('Hello World!'))
 
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodnightInGreek())
@@ -16,7 +16,7 @@ const main = () => {
   console.log('\n' + '-'.repeat(3) + '\nget greeting:')
   console.log(HELLO.getGreeting(42))
   console.log(HELLO.yell(HELLO.getGreeting(666)))
-  console.log(HELLO.getGreeting(1))
+  console.log((HELLO.yell(HELLO.getGreeting(1)).repeat(3)))
   console.log(HELLO.feelTheGame())
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log('-'.repeat(3) + '\n')
@@ -39,8 +39,6 @@ const main = () => {
   console.log('Hypotenuse of a right triangle (3, 4) is : ' + MATH.hypotenuse(3, 4))
   console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
   console.log(MATH.poweroftwo(3))
-
-  console.log(HELLO.yell(HELLO.getGreeting(MATH.sum(40, 2))) + 'CRUEL WORLD!')
 
 }
 

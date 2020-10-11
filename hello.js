@@ -4,7 +4,7 @@ class Hello {
   }
 
   static sayGoodbye () {
-    return 'Bye Bye!'
+    return 'Bye!'
   }
 
   static upTheIrons () {
@@ -12,7 +12,7 @@ class Hello {
   }
 
   static sayCheese () {
-    return 'Cheese'
+    return 'Orange'
   }
 
   static sayGoodnightInGreek () {
