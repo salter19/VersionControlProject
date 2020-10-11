@@ -4,7 +4,7 @@ class Hello {
   }
 
   static sayGoodbye () {
-    return 'Bye Bye!'
+    return 'Bye!'
   }
 
   static upTheIrons () {
