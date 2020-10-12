@@ -29,7 +29,7 @@ const main = () => {
     (MATH.sum(40, 2))))+' CRUEL WORLD!')
 
 
-  console.log('+'.repeat(3) + '\n')
+  console.log(UTILS.getBottomBreaker())
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
