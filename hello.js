@@ -3,6 +3,9 @@ class Hello {
     return 'Hey mates! Let\'s rock this boat!'
   }
 
+  static sayNothing() {
+    return '*akward silence*'
+  }
   static sayGoodbye () {
     return 'Good Bye!'
   }
