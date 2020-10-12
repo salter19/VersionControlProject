@@ -42,6 +42,7 @@ class Hello {
     let result = -1
 
     const options = {
+      0: this.sayNothing(),
       1: this.sayCheese(),
       2: this.sayHello(),
       3: this.sayGoodnightInGreek(),
