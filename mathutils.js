@@ -10,7 +10,7 @@ class MathUtils {
   }
 
   static getOnePercent(a) {
-    console.log("One percent of " + a + " is:" + a/100)
+    console.log('One percent of ' + a + ' is: ' + a / 100)
   }
 
   static subtract (a, b) {
