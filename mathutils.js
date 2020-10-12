@@ -9,6 +9,10 @@ class MathUtils {
     return a + b + c
   }
 
+  static getOnePercent(a) {
+    
+  }
+
   static subtract (a, b) {
     // console.log(a + ' - ' + b)
     return 'Result is ' + (a - b)
