@@ -1,3 +1,4 @@
+const HELLO = require('./hello.js')
 /**
 * Use for handling messages.
 */
@@ -9,12 +10,12 @@ class MsgHandler {
     let result = -1
 
     const options = {
-      1: this.sayCheese(),
-      2: this.sayHello(),
-      3: this.sayGoodnightInGreek(),
-      4: this.sayGoodbye(),
-      666: this.upTheIrons(),
-      42: this.sayGoodbye()
+      1: HELLO.sayCheese(),
+      2: HELLO.sayHello(),
+      3: HELLO.sayGoodnightInGreek(),
+      4: HELLO.sayGoodbye(),
+      666: HELLO.upTheIrons(),
+      42: HELLO.sayGoodbye()
     }
 
     // if given value is found in options, foundIt is set true.
