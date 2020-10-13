@@ -1,3 +1,5 @@
+const HANDLER = require('./msgHandler.js')
+
 class Hello {
   static sayHello () {
     return 'Hey mates! Let\'s rock this boat!'
