@@ -44,6 +44,7 @@ class MathUtils {
   }
 
   static rightTriagleArea (stem, height) {
+    return 'Area is : ' + stem * height / 2
   }
 
   static poweroftwo (a) {
