@@ -35,7 +35,7 @@ class Hello {
     return str.toUpperCase() + ending
   }
 
-  static greet (this, input) {
+  static greet (input) {
     return HANDLER.getGreeting(this, input)
   }
 
