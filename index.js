@@ -44,7 +44,7 @@ const main = () => {
   console.log('Area of right triangle (3, 4) is : ' + MATH.rightTriagleArea(3, 4))
   console.log('Area of circle (r = 2) is : ' + MATH.circleArea(2))
   console.log(MATH.poweroftwo(3))
-  MATH.getOnePercent(124)
+  console.log(MATH.getOnePercent(124))
 }
 
 main()
