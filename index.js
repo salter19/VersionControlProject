@@ -9,7 +9,7 @@ const MATH = require('./mathutils.js')
 const UTILS = require('./utils.js')
 
 const main = () => {
-  console.log(HELLO.yell('Hello World!'))
+  console.log(UTILS.yell('Hello World!'))
 
   console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodnightInGreek())
@@ -18,18 +18,18 @@ const main = () => {
   console.log('get greeting:')
   console.log(HELLO.greet(4))
   console.log(HELLO.greet(42))
-  console.log(HELLO.yell(HELLO.greet(666)))
-  console.log((HELLO.yell(HELLO.greet(1)).repeat(3)))
+  console.log(UTILS.yell(HELLO.greet(666)))
+  console.log((UTILS.yell(HELLO.greet(1)).repeat(3)))
   console.log(HELLO.feelTheGame())
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log(UTILS.getBottomBreaker())
 
-  console.log(HELLO.yell('help i can\'t stop screaming'))
+  console.log(UTILS.yell('help i can\'t stop screaming'))
 
-  console.log(HELLO.yell(HELLO.greet(parseInt
+  console.log(UTILS.yell(HELLO.greet(parseInt
     (MATH.sum(40, 2))))+' CRUEL WORLD!')
 
-  console.log(HELLO.yell(HELLO.greet(0)))
+  console.log(UTILS.yell(HELLO.greet(0)))
   console.log(UTILS.getBottomBreaker())
 
   console.log(MATH.sum(40, 2))
