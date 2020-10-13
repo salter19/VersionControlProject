@@ -16,7 +16,7 @@ const main = () => {
 
   console.log(UTILS.getTopBreaker())
   console.log('get greeting:')
-  console.log(HELLO.greet(1))  
+  console.log(HELLO.greet(4))
   console.log(HELLO.greet(42))
   console.log(HELLO.yell(HELLO.greet(666)))
   console.log((HELLO.yell(HELLO.greet(1)).repeat(3)))
