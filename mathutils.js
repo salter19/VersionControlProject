@@ -15,7 +15,8 @@ class MathUtils {
   }
 
   static addVAT(value) {
-    
+    console.log("Price without VAT: " + value)
+    console.log("Price with VAT: " + value * 1.24)
   }
 
   static subtract (a, b) {
