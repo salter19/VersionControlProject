@@ -6,8 +6,8 @@ class Utils {
   static getBottomBreaker () {
     return '-'.repeat(3) + '\n'
   }
-  static yell (method) {
-  const str = method
+  static yell (string) {
+  const str = string
   /* if the last character is not "." or "!"
      then ! will be added
   */
