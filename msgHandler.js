@@ -1,3 +1,6 @@
+/**
+* Use for handling messages.
+*/
 class MsgHandler {
 }
 
