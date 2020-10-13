@@ -24,6 +24,10 @@ class MsgHandler {
       Number(opt) === value ? foundIt = true
         : foundIt ? foundIt = true : foundIt = false
     }
+
+    foundIt ? result = options[value] : result = 'Could not compute given value.'
+
+    return result
   }
 
 }
