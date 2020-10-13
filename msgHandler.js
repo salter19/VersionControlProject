@@ -5,7 +5,6 @@ class MsgHandler {
 
   static getGreeting (caller, input) {
     const value = (!isNaN(input) && Number.isInteger(input)) ? input : -1
-    const _this = HELLO
     let foundIt = false
     let result = -1
 
