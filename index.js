@@ -45,6 +45,7 @@ const main = () => {
   console.log('Area of circle (r = 2) is : ' + MATH.circleArea(2))
   console.log(MATH.poweroftwo(3))
   console.log(MATH.getOnePercent(124))
+  MATH.addVAT(100)
 }
 
 main()
