@@ -15,18 +15,18 @@ const main = () => {
   console.log(HELLO.sayGoodnightInGreek())
 
   console.log(UTILS.getTopBreaker())
-  console.log(HELLO.greet(1))
   console.log('get greeting:')
-  console.log(HELLO.getGreeting(42))
-  console.log(HELLO.yell(HELLO.getGreeting(666)))
-  console.log((HELLO.yell(HELLO.getGreeting(1)).repeat(3)))
+  console.log(HELLO.greet(1))  
+  console.log(HELLO.greet(42))
+  console.log(HELLO.yell(HELLO.greet(666)))
+  console.log((HELLO.yell(HELLO.greet(1)).repeat(3)))
   console.log(HELLO.feelTheGame())
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log(UTILS.getBottomBreaker())
 
   console.log(HELLO.yell('Is this is a custom message?'))
   console.log(HELLO.yell('help i can\'t stop screaming'))
-  console.log(HELLO.yell(HELLO.getGreeting(parseInt
+  console.log(HELLO.yell(HELLO.greet(parseInt
     (MATH.sum(40, 2))))+' CRUEL WORLD!')
 
 
