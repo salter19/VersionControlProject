@@ -9,7 +9,7 @@ class MathUtils {
     return a + b + c
   }
 
-  static getOnePercent(a) {
+  static getOnePercent (a) {
     console.log('One percent of ' + a + ' is: ' + a / 100)
   }
 
@@ -44,6 +44,15 @@ class MathUtils {
   }
 
   static rightTriagleArea (stem, height) {
+    return stem * height / 2
+  }
+
+  static circumference (radius) {
+    return 2 * radius * Math.PI
+  }
+
+  static circleRadius (circumference) {
+    return circumference / (2 * Math.PI)
   }
 
   static poweroftwo (a) {

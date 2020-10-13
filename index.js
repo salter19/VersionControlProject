@@ -16,7 +16,7 @@ const main = () => {
 
   console.log(UTILS.getTopBreaker())
   console.log('get greeting:')
-  console.log(HELLO.greet(1))  
+  console.log(HELLO.greet(1))
   console.log(HELLO.greet(42))
   console.log(HELLO.yell(HELLO.greet(666)))
   console.log((HELLO.yell(HELLO.greet(1)).repeat(3)))
@@ -25,6 +25,7 @@ const main = () => {
   console.log(UTILS.getBottomBreaker())
 
   console.log(HELLO.yell('help i can\'t stop screaming'))
+
   console.log(HELLO.yell(HELLO.greet(parseInt
     (MATH.sum(40, 2))))+' CRUEL WORLD!')
 
@@ -40,6 +41,8 @@ const main = () => {
 
   console.log('Hypotenuse of a right triangle (3, 4) is : ' + MATH.hypotenuse(3, 4))
   console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
+  console.log('Area of right triangle (3, 4) is : ' + MATH.rightTriagleArea(3, 4))
+  console.log('Area of circle (r = 2) is : ' + MATH.circleArea(2))
   console.log(MATH.poweroftwo(3))
   MATH.getOnePercent(124)
 }
