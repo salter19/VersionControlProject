@@ -44,11 +44,11 @@ class MathUtils {
   }
 
   static rightTriagleArea (stem, height) {
-    return 'Area is : ' + stem * height / 2
+    return stem * height / 2
   }
 
   static circleArea (radius) {
-    return 'Area is: ' + 2 * radius * Math.PI
+    return 2 * radius * Math.PI
   }
 
   static poweroftwo (a) {
