@@ -35,6 +35,10 @@ class Hello {
     return str.toUpperCase() + ending
   }
 
+  static greet (input) {
+    return HANDLER.getGreeting(input)
+  }
+
   static getGreeting (input) {
     const value = (!isNaN(input) && Number.isInteger(input)) ? input : -1
     let foundIt = false
