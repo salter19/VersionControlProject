@@ -47,7 +47,7 @@ class MathUtils {
     return stem * height / 2
   }
 
-  static circleArea (radius) {
+  static circumference (radius) {
     return 2 * radius * Math.PI
   }
 
