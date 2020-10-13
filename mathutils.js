@@ -14,6 +14,10 @@ class MathUtils {
     return a / 100
   }
 
+  static addVAT(value) {
+    
+  }
+
   static subtract (a, b) {
     // console.log(a + ' - ' + b)
     return 'Result is ' + (a - b)
