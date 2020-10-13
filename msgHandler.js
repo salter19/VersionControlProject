@@ -29,8 +29,8 @@ class MsgHandler {
     return result
   }
 
-  static yell (method) {
-    const str = method
+  static yell (input) {
+    const str = input
     /* if the last character is not "." or "!"
        then ! will be added
     */
