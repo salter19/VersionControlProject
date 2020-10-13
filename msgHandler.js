@@ -10,7 +10,7 @@ class MsgHandler {
 
     const options = {
       1: caller.sayCheese(),
-      2: caller.saycaller(),
+      2: caller.sayHello(),
       3: caller.sayGoodnightInGreek(),
       4: caller.sayGoodbye(),
       666: caller.upTheIrons(),
