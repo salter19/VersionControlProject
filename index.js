@@ -25,9 +25,8 @@ const main = () => {
 
   console.log(HELLO.yell('Is this is a custom message?'))
   console.log(HELLO.yell('help i can\'t stop screaming'))
-  console.log(HELLO.yell(HELLO.getGreeting(parseInt
-    (MATH.sum(40, 2))))+' CRUEL WORLD!')
-
+  console.log(HELLO.yell(HELLO.getGreeting(parseInt)))
+  console.log(MATH.sum(40, 2) + ' CRUEL WORLD!')
 
   console.log('+'.repeat(3) + '\n')
 
