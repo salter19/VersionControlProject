@@ -47,6 +47,10 @@ class MathUtils {
     return 'Area is : ' + stem * height / 2
   }
 
+  static circleArea (radius) {
+    return 'Area is: ' + 2 * radius * Math.PI
+  }
+
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
