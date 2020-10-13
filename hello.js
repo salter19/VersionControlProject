@@ -5,6 +5,9 @@ class Hello {
     return 'Hey mates! Let\'s rock this boat!'
   }
 
+  static sayNothing() {
+    return '*akward silence*'
+  }
   static sayGoodbye () {
     return 'Good Bye!'
   }
@@ -39,9 +42,9 @@ class Hello {
     return HANDLER.getGreeting(this, input)
   }
 
-    static feelTheGame () {
-	return this.yell('Tappara!')
-    }
+  static feelTheGame () {
+	  return this.yell('Tappara!')
+  }
 }
 
 module.exports = Hello

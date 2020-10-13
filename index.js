@@ -24,13 +24,12 @@ const main = () => {
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log(UTILS.getBottomBreaker())
 
-  console.log(HELLO.yell('Is this is a custom message?'))
   console.log(HELLO.yell('help i can\'t stop screaming'))
   console.log(HELLO.yell(HELLO.greet(parseInt
     (MATH.sum(40, 2))))+' CRUEL WORLD!')
 
-
-  console.log('+'.repeat(3) + '\n')
+  console.log(HELLO.yell(HELLO.getGreeting(0)))
+  console.log(UTILS.getBottomBreaker())
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
