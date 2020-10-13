@@ -1,21 +1,20 @@
-const HELLO = require('./hello.js')
 /**
 * Use for handling messages.
 */
 class MsgHandler {
 
-  static getGreeting (input) {
+  static getGreeting (caller, input) {
     const value = (!isNaN(input) && Number.isInteger(input)) ? input : -1
     let foundIt = false
     let result = -1
 
     const options = {
-      1: HELLO.sayCheese(),
-      2: HELLO.sayHello(),
-      3: HELLO.sayGoodnightInGreek(),
-      4: HELLO.sayGoodbye(),
-      666: HELLO.upTheIrons(),
-      42: HELLO.sayGoodbye()
+      1: caller.sayCheese(),
+      2: caller.saycaller(),
+      3: caller.sayGoodnightInGreek(),
+      4: caller.sayGoodbye(),
+      666: caller.upTheIrons(),
+      42: caller.sayGoodbye()
     }
 
     // if given value is found in options, foundIt is set true.
