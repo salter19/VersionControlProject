@@ -42,10 +42,11 @@ const main = () => {
   console.log('Hypotenuse of a right triangle (3, 4) is : ' + MATH.hypotenuse(3, 4))
   console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
   console.log('Area of right triangle (3, 4) is : ' + MATH.rightTriagleArea(3, 4))
-  console.log('Area of circle (r = 2) is : ' + MATH.circleArea(2))
+  // console.log('Area of circle (r = 2) is : ' + MATH.circleArea(2))
   console.log(MATH.poweroftwo(3))
   console.log(MATH.getOnePercent(124))
   MATH.addVAT(100)
+  MATH.countValueWithoutVAT(124)
 }
 
 main()
