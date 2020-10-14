@@ -20,6 +20,10 @@ class MathUtils {
     return value * 1.24
   }
 
+  static countValueWithoutVAT(value) {
+    
+  }
+
   static subtract (a, b) {
     // console.log(a + ' - ' + b)
     return 'Result is ' + (a - b)
