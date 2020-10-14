@@ -52,15 +52,3 @@ const main = () => {
 }
 
 main()
-
-var x = 5
-
-function f () {
-  console.log(x)
-}
-
-f()
-
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 1000)
-}
