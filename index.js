@@ -19,7 +19,6 @@ const main = () => {
   console.log(HELLO.greet(42))
   console.log(UTILS.yell(HELLO.greet(666)))
   console.log((UTILS.yell(HELLO.greet(1)).repeat(3)))
-  console.log(HELLO.feelTheGame())
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log(UTILS.getBottomBreaker())
 
