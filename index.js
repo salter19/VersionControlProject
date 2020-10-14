@@ -11,7 +11,6 @@ const UTILS = require('./utils.js')
 const main = () => {
   console.log(UTILS.yell('Hello World!'))
 
-  console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodnightInGreek())
 
   console.log(UTILS.getTopBreaker())
