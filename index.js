@@ -24,8 +24,6 @@ const main = () => {
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log(UTILS.getBottomBreaker())
 
-  console.log(UTILS.yell('help i can\'t stop screaming'))
-
   console.log(UTILS.yell(HELLO.greet(parseInt(
     MATH.sum(40, 2)))) + ' CRUEL WORLD!')
 
