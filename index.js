@@ -26,8 +26,8 @@ const main = () => {
 
   console.log(UTILS.yell('help i can\'t stop screaming'))
 
-  console.log(UTILS.yell(HELLO.greet(parseInt
-    (MATH.sum(40, 2))))+' CRUEL WORLD!')
+  console.log(UTILS.yell(HELLO.greet(parseInt(
+    MATH.sum(40, 2)))) + ' CRUEL WORLD!')
 
   console.log(UTILS.yell(HELLO.greet(0)))
   console.log(UTILS.getBottomBreaker())
