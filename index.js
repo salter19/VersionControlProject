@@ -18,6 +18,7 @@ const main = () => {
   console.log('get greeting:')
   console.log(HELLO.greet(4))
   console.log(HELLO.greet(42))
+  console.log(HELLO.greet(0))
   console.log(UTILS.yell(HELLO.greet(666)))
   console.log((UTILS.yell(HELLO.greet(1)).repeat(3)))
   console.log(HELLO.feelTheGame())
