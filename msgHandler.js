@@ -9,6 +9,7 @@ class MsgHandler {
     let result = -1
 
     const options = {
+      0: caller.sayNothing(),
       1: caller.sayCheese(),
       2: caller.sayHello(),
       3: caller.sayGoodnightInGreek(),
