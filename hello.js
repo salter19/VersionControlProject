@@ -33,7 +33,7 @@ class Hello {
   }
 
   static feelTheGame () {
-	  return HANDLER.yell('Tappara')
+	  return yell('Tappara')
   }
 }
 
