@@ -24,16 +24,12 @@ class Hello {
     return 'Kalinihta!'
   }
 
-  static yell (method) {
-    return HANDLER.yell(method)
-  }
-
   static greet (input) {
     return HANDLER.getGreeting(this, input)
   }
 
   static feelTheGame () {
-	  return this.yell('Tappara')
+	  return HANDLER.yell('Tappara')
   }
 }
 
