@@ -67,6 +67,10 @@ class MathUtils {
     return circumference / (2 * Math.PI)
   }
 
+  static circleArea (radius) {
+    
+  }
+ 
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
