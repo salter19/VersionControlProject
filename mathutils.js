@@ -10,19 +10,20 @@ class MathUtils {
   }
 
   static getOnePercent (a) {
-    console.log('One percent of ' + a + ' is: ' + a / 100)
+    // console.log('One percent of ' + a + ' is: ' + a / 100)
     return a / 100
   }
 
   static addVAT (value) {
-    console.log('Price without VAT: ' + value)
-    console.log('Price with VAT: ' + value * 1.24)
+    // console.log('Price without VAT: ' + value)
+    // console.log('Price with VAT: ' + value * 1.24)
     return value * 1.24
   }
 
   static countValueWithoutVAT (value) {
-    console.log('Price with VAT: ' + value)
-    console.log('Price without VAT: ' + value / 124 * 100)
+    // console.log('Price with VAT: ' + value)
+    // console.log('Price without VAT: ' + value / 124 * 100)
+    return value / 124 * 100
   }
 
   static subtract (a, b) {
