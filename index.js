@@ -11,7 +11,6 @@ const UTILS = require('./utils.js')
 const main = () => {
   console.log(UTILS.yell('Hello World!'))
 
-  console.log(HELLO.sayHello())
   console.log(HELLO.sayGoodnightInGreek())
 
   console.log(UTILS.getTopBreaker())
@@ -20,11 +19,8 @@ const main = () => {
   console.log(HELLO.greet(42))
   console.log(UTILS.yell(HELLO.greet(666)))
   console.log((UTILS.yell(HELLO.greet(1)).repeat(3)))
-  console.log(HELLO.feelTheGame())
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log(UTILS.getBottomBreaker())
-
-  console.log(UTILS.yell('help i can\'t stop screaming'))
 
   console.log(UTILS.yell(HELLO.greet(parseInt(
     MATH.sum(40, 2)))) + ' CRUEL WORLD!')
