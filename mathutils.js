@@ -15,7 +15,7 @@ class MathUtils {
   }
 
   static countPercents(value, percent) {
-    
+    console.log("" + percent + "% of value " + value + " is: " + percent/100*value)
   }
 
   static addVAT (value) {
