@@ -31,6 +31,9 @@ class Hello {
   static feelTheGame () {
 	  return HANDLER.yell('Tappara')
   }
+  static scream(city) {
+    return HANDLER.yell ('Scream for me '+city)
+  }
 }
 
 module.exports = Hello
