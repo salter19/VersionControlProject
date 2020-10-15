@@ -46,8 +46,8 @@ const main = () => {
   console.log('Circumference (r = 2) is : ' + MATH.circumference(2))
   console.log(MATH.poweroftwo(3))
   console.log(MATH.getOnePercent(124))
-  MATH.addVAT(100)
-  MATH.countValueWithoutVAT(124)
+  console.log(MATH.addVAT(100))
+  console.log(MATH.countValueWithoutVAT(124))
 }
 
 main()
