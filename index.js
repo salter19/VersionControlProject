@@ -15,7 +15,7 @@ const main = () => {
   console.log(HELLO.sayGoodnightInGreek())
 
   console.log(UTILS.getTopBreaker())
-  console.log('get greeting:')
+  console.log('gEt grEEting:')
   console.log(HANDLER.getGreeting(HELLO, 4))
   console.log(HANDLER.getGreeting(HELLO, 42))
   console.log(HANDLER.getGreeting(HELLO, 0))
