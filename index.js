@@ -16,19 +16,19 @@ const main = () => {
 
   console.log(UTILS.getTopBreaker())
   console.log('get greeting:')
-  console.log(HELLO.greet(4))
-  console.log(HELLO.greet(42))
-  console.log(HELLO.greet(0))
-  console.log(HANDLER.yell(HELLO.greet(666)))
-  console.log((HANDLER.yell(HELLO.greet(1)).repeat(6)))
+  console.log(HANDLER.getGreeting(HELLO, 4))
+  console.log(HANDLER.getGreeting(HELLO, 42))
+  console.log(HANDLER.getGreeting(HELLO, 0))
+  console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 666)))
+  console.log((HANDLER.yell(HANDLER.getGreeting(HELLO, 1)).repeat(6)))
   console.log(HELLO.scream('Tampere'))
-  console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
+  console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(UTILS.getBottomBreaker())
 
-  console.log(HANDLER.yell(HELLO.greet(parseInt(
+  console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(
     MATH.sum(40, 2)))) + ' CRUEL WORLD!')
 
-  console.log(HANDLER.yell(HELLO.greet(0)))
+  console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 0)))
   console.log(UTILS.getBottomBreaker())
 
   console.log(MATH.sum(40, 2))
