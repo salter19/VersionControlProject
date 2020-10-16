@@ -33,7 +33,7 @@ class MathUtils {
 
   static subtract (a, b) {
     // console.log(a + ' - ' + b)
-    return 'Result is ' + (a - b)
+    return a - b
   }
 
   static divide (a, b) {
