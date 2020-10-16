@@ -10,7 +10,7 @@ const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
 
 const main = () => {
-  console.log(HANDLER.yell('Hello World!'))
+  console.log(HANDLER.yell('HellO WOrld!'))
 
   console.log(HELLO.sayGoodnightInGreek())
 
