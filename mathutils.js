@@ -81,10 +81,6 @@ class MathUtils {
     const inner = (b) => a + b
     return inner
   }
-
-  static delayedSum (a, b, c) {
-    return a + b + c
-  }
 }
 
 module.exports = MathUtils
