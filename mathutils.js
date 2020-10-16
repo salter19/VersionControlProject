@@ -79,7 +79,7 @@ class MathUtils {
 
   static sumInner (a) {
     const inner = (b) => a + b
-    return inner
+    inner()
   }
 }
 
