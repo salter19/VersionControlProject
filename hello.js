@@ -5,16 +5,17 @@ class Hello {
     return 'Hey mates! Let\'s rock this boat!'
   }
 
-  static sayNothing() {
+  static sayNothing () {
     return '*akward silence*'
   }
+
   static sayGoodbye () {
     return 'Good Bye!'
   }
 
   static upTheIrons () {
     return 'Up The Irons!'
- }
+  }
 
   static sayCheese () {
     return 'Hey!'
@@ -29,10 +30,11 @@ class Hello {
   }
 
   static feelTheGame () {
-	  return HANDLER.yell('Tappara')
+    return HANDLER.yell('Tappara')
   }
-  static scream(city) {
-    return HANDLER.yell ('Scream for me '+city)
+
+  static scream (city) {
+    return HANDLER.yell('Scream for me ' + city)
   }
 }
 
