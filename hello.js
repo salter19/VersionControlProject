@@ -25,10 +25,6 @@ class Hello {
     return 'Kalinihta!'
   }
 
-  static greet (input) {
-    return HANDLER.getGreeting(this, input)
-  }
-
   static feelTheGame () {
     return HANDLER.yell('Tappara')
   }
