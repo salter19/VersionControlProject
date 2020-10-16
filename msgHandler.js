@@ -45,6 +45,10 @@ class MsgHandler {
     return str.toUpperCase() + ending
   }
 
+  static feelTheGame () {
+    return this.yell('Tappara')
+  }
+
 }
 
 module.exports = MsgHandler
