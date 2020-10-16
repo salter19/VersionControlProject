@@ -7,6 +7,7 @@ but rather create new class for each feature.
 const HELLO = require('./hello.js')
 const MATH = require('./mathutils.js')
 const UTILS = require('./utils.js')
+const HANDLER = require('./msgHandler.js')
 
 const main = () => {
   console.log(UTILS.yell('Hello World!'))
@@ -18,16 +19,16 @@ const main = () => {
   console.log(HELLO.greet(4))
   console.log(HELLO.greet(42))
   console.log(HELLO.greet(0))
-  console.log(UTILS.yell(HELLO.greet(666)))
-  console.log((UTILS.yell(HELLO.greet(1)).repeat(6)))
+  console.log(HANDLER.yell(HELLO.greet(666)))
+  console.log((HANDLER.yell(HELLO.greet(1)).repeat(6)))
   console.log(HELLO.scream('Tampere'))
   console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 40)))
   console.log(UTILS.getBottomBreaker())
 
-  console.log(UTILS.yell(HELLO.greet(parseInt(
+  console.log(HANDLER.yell(HELLO.greet(parseInt(
     MATH.sum(40, 2)))) + ' CRUEL WORLD!')
 
-  console.log(UTILS.yell(HELLO.greet(0)))
+  console.log(HANDLER.yell(HELLO.greet(0)))
   console.log(UTILS.getBottomBreaker())
 
   console.log(MATH.sum(40, 2))
