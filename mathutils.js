@@ -36,6 +36,10 @@ class MathUtils {
     return a - b
   }
 
+  static countBMI(height,weight) {
+    
+  }
+
   static divide (a, b) {
     return (a / b)
   }
