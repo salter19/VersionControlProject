@@ -81,6 +81,11 @@ class MathUtils {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
   }
+
+  static sumInner (a) {
+    const inner = (b) => a + b
+    return inner
+  }
 }
 
 module.exports = MathUtils
