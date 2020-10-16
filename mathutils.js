@@ -37,9 +37,13 @@ class MathUtils {
   }
 
   static countBMI(height,weight) {
-    console.log("Your height is: " + height)
-    console.log("Your weight is: " + weight)
-    console.log("Your BMI is: " + weight/height/height)
+    if(height < 3) {
+
+    } else {
+      console.log("Your height is: " + height)
+      console.log("Your weight is: " + weight)
+      console.log("Your BMI is: " + weight/height/height)
+    }
   }
 
   static divide (a, b) {
