@@ -14,6 +14,11 @@ class MathUtils {
     return a / 100
   }
 
+  static countPercents (value, percent) {
+    console.log(percent + '% of value ' + value + ' is: ' + percent / 100 * value)
+    return percent / 100 * value
+  }
+
   static addVAT (value) {
     // console.log('Price without VAT: ' + value)
     // console.log('Price with VAT: ' + value * 1.24)
