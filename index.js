@@ -47,15 +47,6 @@ const main = () => {
   console.log(MATH.countValueWithoutVAT(124))
 
   console.log(MATH.sumInner(5)(5))
-  console.log(delayedSum(1, 2, 3))
-
-  async function delayedSum (a, b, c) {
-    const x = await setTimeout((a, b) => a + b, 1000)
-    console.log(x)
-    const y = await setTimeout((x, c) => x + c, 1000)
-    console.log(y)
-    return x + y
-  }
 }
 
 main()
