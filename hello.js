@@ -24,10 +24,6 @@ class Hello {
   static sayGoodnightInGreek () {
     return 'Kalinihta!'
   }
-
-  static scream (city) {
-    return HANDLER.yell('Scream for me ' + city)
-  }
 }
 
 module.exports = Hello
