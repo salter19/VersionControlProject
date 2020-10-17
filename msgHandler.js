@@ -12,7 +12,7 @@ class MsgHandler {
       0: caller.getSayNothing(),
       1: caller.getSayCheese(),
       2: caller.getHello(),
-      3: caller.sayGoodnightInGreek(),
+      3: caller.getKalinihta(),
       4: caller.getSayGoodbye(),
       666: caller.getUpTheIrons(),
       42: caller.getSayGoodbye(),

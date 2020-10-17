@@ -12,7 +12,7 @@ const HANDLER = require('./msgHandler.js')
 const main = () => {
   console.log(HANDLER.yell('HellO WOrld!'))
 
-  console.log(HELLO.sayGoodnightInGreek())
+  console.log(HELLO.getKalinihta())
 
   console.log(UTILS.getTopBreaker())
   console.log('gEt grEEting:')

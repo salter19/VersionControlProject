@@ -21,7 +21,7 @@ class Hello {
     return 'Hey!'
   }
 
-  static sayGoodnightInGreek () {
+  static getKalinihta () {
     return 'Kalinihta!'
   }
 }
