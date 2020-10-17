@@ -9,7 +9,7 @@ class Hello {
     return '*akward silence*'
   }
 
-  static sayGoodbye () {
+  static getSayGoodbye () {
     return 'Good Bye!'
   }
 
