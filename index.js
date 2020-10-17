@@ -26,7 +26,7 @@ const main = () => {
 
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(
     MATH.sum(40, 2)))) + ' AND HELLO WORLD!')
-  console.log(HANDLER.getGreeting(HELLO, 85))
+  console.log(HANDLER.getGreeting(HELLO, 1985))
   console.log(HANDLER.getGreeting(HELLO, 0))
   console.log(UTILS.getBottomBreaker().repeat(1))
 
