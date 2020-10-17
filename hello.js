@@ -5,7 +5,7 @@ class Hello {
     return 'Hey mates! Let\'s rock this boat!'
   }
 
-  static sayNothing () {
+  static getSayNothing () {
     return '*akward silence*'
   }
 
