@@ -49,7 +49,7 @@ const main = () => {
   console.log(MATH.countValueWithoutVAT(124))
   MATH.countPercents(1000, 12)
   console.log(MATH.sumInner(5)(5))
-  MATH.countBMI(170, 75)
+  console.log(MATH.countBMI(170, 75))
 }
 
 main()
