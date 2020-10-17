@@ -14,7 +14,7 @@ class MsgHandler {
       2: caller.getHello(),
       3: caller.sayGoodnightInGreek(),
       4: caller.getSayGoodbye(),
-      666: caller.upTheIrons(),
+      666: caller.getUpTheIrons(),
       42: caller.getSayGoodbye(),
       85: this.scream('Long Beach')
     }

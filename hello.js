@@ -13,7 +13,7 @@ class Hello {
     return 'Good Bye!'
   }
 
-  static upTheIrons () {
+  static getUpTheIrons () {
     return 'Up The Irons!'
   }
 
