@@ -42,7 +42,7 @@ class MathUtils {
     } else {
       console.log("Your height is: " + height)
       console.log("Your weight is: " + weight)
-      console.log("Your BMI is: " + weight/height/height)
+      console.log("Your BMI is: " + weight/(height/100)/(height/100))
     }
   }
 
