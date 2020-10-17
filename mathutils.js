@@ -33,7 +33,17 @@ class MathUtils {
 
   static subtract (a, b) {
     // console.log(a + ' - ' + b)
-    return 'Result is ' + (a - b)
+    return a - b
+  }
+
+  static countBMI(height,weight) {
+    if(height < 3) {
+      console.log('Please insert the height in centimeters.')
+    } else {
+      console.log("Your height is: " + height)
+      console.log("Your weight is: " + weight)
+      console.log("Your BMI is: " + weight/height/height)
+    }
   }
 
   static divide (a, b) {
