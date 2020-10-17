@@ -18,7 +18,6 @@ const main = () => {
   console.log('gEt grEEting:')
   console.log(HANDLER.getGreeting(HELLO, 4))
   console.log(HANDLER.getGreeting(HELLO, 42))
-  console.log(HANDLER.getGreeting(HELLO, 0))
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 666)))
   console.log((HANDLER.yell(HANDLER.getGreeting(HELLO, 1)).repeat(6)))
   console.log(HANDLER.scream('Tampere'))
