@@ -16,7 +16,7 @@ class MsgHandler {
       4: caller.sayGoodbye(),
       666: caller.upTheIrons(),
       42: caller.sayGoodbye(),
-      85: this.scream('Long Beach')
+      1985: this.scream('Long Beach')
     }
 
     // if given value is found in options, foundIt is set true.
