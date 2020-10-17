@@ -21,8 +21,8 @@ const main = () => {
   console.log(HANDLER.getGreeting(HELLO, 0))
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 666)))
   console.log((HANDLER.yell(HANDLER.getGreeting(HELLO, 1)).repeat(6)))
-  console.log(HELLO.scream('Tampere'))
-  console.log(HELLO.feelTheGame().repeat(MATH.sum(2, 1)))
+  console.log(HANDLER.scream('Tampere'))
+  console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(UTILS.getBottomBreaker())
 
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(
