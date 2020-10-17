@@ -29,7 +29,7 @@ const main = () => {
     MATH.sum(40, 2)))) + ' AND HELLO WORLD!')
   console.log(HANDLER.getGreeting(HELLO, 85))
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 0)))
-  console.log(UTILS.getBottomBreaker().repeat(2))
+  console.log(UTILS.getBottomBreaker().repeat(1))
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
