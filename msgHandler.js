@@ -16,7 +16,7 @@ class MsgHandler {
       4: caller.sayGoodbye(),
       666: caller.upTheIrons(),
       42: caller.sayGoodbye(),
-      85: caller.scream('Long Beach')
+      85: this.scream('Long Beach')
     }
 
     // if given value is found in options, foundIt is set true.
@@ -43,6 +43,14 @@ class MsgHandler {
       ending = ''
     }
     return str.toUpperCase() + ending
+  }
+
+  static feelTheGame () {
+    return this.yell('Tappara')
+  }
+
+  static scream (city) {
+    return this.yell('Scream for me ' + city)
   }
 
 }
