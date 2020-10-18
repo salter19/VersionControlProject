@@ -46,7 +46,8 @@ class MsgHandler {
   }
 
   static feelTheGame () {
-    return this.yell('Tappara')
+    const result = ' ' + this.scream('Tampere') + '\n - tappara'
+    return this.yell(result)
   }
 
   static scream (city) {
