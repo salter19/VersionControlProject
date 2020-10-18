@@ -1,5 +1,3 @@
-const HANDLER = require('./msgHandler.js')
-
 class Hello {
   static getHello () {
     return 'Hey mates! Let\'s rock this boat!'
