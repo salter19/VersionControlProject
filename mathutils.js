@@ -38,11 +38,12 @@ class MathUtils {
 
   static countBMI(height,weight) {
     if(height < 3) {
-      console.log('Please insert the height in centimeters.')
+      return 'Please insert the height in centimeters.'
     } else {
       console.log("Your height is: " + height)
       console.log("Your weight is: " + weight)
-      console.log("Your BMI is: " + weight/height/height)
+      console.log("Your BMI is: " + weight/(height/100)/(height/100))
+      return weight / (height / 100) / (height / 100)
     }
   }
 
