@@ -26,6 +26,7 @@ const main = () => {
     MATH.sum(40, 2)))) + ' and hello world.')
   console.log(HANDLER.getGreeting(HELLO, 1985))
   console.log(HANDLER.getGreeting(HELLO, 0))
+  console.log(HANDLER.getGreeting(HELLO, 1985))
   console.log(UTILS.getBottomBreaker().repeat(1))
 
   console.log(MATH.sum(40, 2))
