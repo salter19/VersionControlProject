@@ -1,27 +1,27 @@
 const HANDLER = require('./msgHandler.js')
 
 class Hello {
-  static sayHello () {
+  static getHello () {
     return 'Hey mates! Let\'s rock this boat!'
   }
 
-  static sayNothing () {
+  static getSayNothing () {
     return '*akward silence*'
   }
 
-  static sayGoodbye () {
+  static getSayGoodbye () {
     return 'Good Bye!'
   }
 
-  static upTheIrons () {
+  static getUpTheIrons () {
     return 'Up The Irons!'
   }
 
-  static sayCheese () {
+  static getSayCheese () {
     return 'Hey!'
   }
 
-  static sayGoodnightInGreek () {
+  static getKalinihta () {
     return 'Kalinihta!'
   }
 }
