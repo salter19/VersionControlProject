@@ -15,7 +15,7 @@ class MsgHandler {
       3: caller.getKalinihta(),
       4: caller.getSayGoodbye(),
       666: caller.getUpTheIrons(),
-      42: caller.getSayGoodbye(),
+      42: caller.get42(),
       1985: this.scream('Long Beach')
     }
 
