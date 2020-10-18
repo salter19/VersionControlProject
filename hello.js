@@ -24,6 +24,10 @@ class Hello {
   static getKalinihta () {
     return 'Kalinihta!'
   }
+
+  static get42 () {
+    return 'Might be meaning of life, or might be Otto - both are equally excepted.'
+  }
 }
 
 module.exports = Hello
