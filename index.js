@@ -10,7 +10,7 @@ const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
 
 const main = () => {
-  console.log(HANDLER.yell('HellO WOrld!'))
+  console.log(HANDLER.yell('HellO WOrld! ').repeat(3))
 
   console.log(UTILS.getTopBreaker())
   console.log('GEt GrEEtinG:')
