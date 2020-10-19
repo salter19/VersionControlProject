@@ -51,6 +51,7 @@ const main = () => {
   console.log('Area: ' + MATH.area(2, 2))
   console.log('Propability to get 3 in dice: ' + MATH.probability(1, 6))
   console.log('Probability not to get 3 in dice: ' + MATH.probabilityNotHappen(1, 6))
+  console.log('Probability to get yellow, red and white: ' + MATH.combinationProbability([4, 5, 11], 20))
 }
 
 main()
