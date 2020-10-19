@@ -4,7 +4,6 @@
 const UTILS = require('./utils.js')
 
 class MsgHandler {
-
   static getGreeting (caller, input) {
     const value = (!isNaN(input) && Number.isInteger(input)) ? input : -1
     let foundIt = false
@@ -24,7 +23,7 @@ class MsgHandler {
 
     // if given value is found in options, foundIt is set true.
     // if foundIt is already true, it can't be set to false again
-    for (let opt in options) {
+    for (const opt in options) {
       Number(opt) === value ? foundIt = true
         : foundIt ? foundIt = true : foundIt = false
     }
