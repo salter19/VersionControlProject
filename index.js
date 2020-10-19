@@ -13,7 +13,7 @@ const main = () => {
   console.log(HANDLER.yell('HellO WOrld!'))
 
  console.log(UTILS.getTopBreaker())
-  console.log('gEt grEEting:')
+  console.log('GEt GrEEtinG:')
   console.log(HANDLER.getGreeting(HELLO, 4))
   console.log(HANDLER.getGreeting(HELLO, 42))
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 666)))
@@ -23,9 +23,10 @@ const main = () => {
   console.log(UTILS.getBottomBreaker())
 
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(
-    MATH.sum(40, 2)))) + ' AND HELLO WORLD!')
+    MATH.sum(40, 2)))) + ' and hello world.')
   console.log(HANDLER.getGreeting(HELLO, 1985))
   console.log(HANDLER.getGreeting(HELLO, 0))
+  console.log(HANDLER.getGreeting(HELLO, 1985))
   console.log(UTILS.getBottomBreaker().repeat(1))
 
   console.log(MATH.sum(40, 2))
