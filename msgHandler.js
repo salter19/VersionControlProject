@@ -1,6 +1,8 @@
 /**
 * Use for handling messages.
 */
+const UTILS = require('./utils.js')
+
 class MsgHandler {
 
   static getGreeting (caller, input) {
@@ -15,7 +17,7 @@ class MsgHandler {
       3: caller.getKalinihta(),
       4: caller.getSayGoodbye(),
       666: caller.getUpTheIrons(),
-      42: caller.getSayGoodbye(),
+      42: caller.get42(),
       1985: this.scream('Long Beach')
     }
 
@@ -46,7 +48,8 @@ class MsgHandler {
   }
 
   static feelTheGame () {
-    return this.yell('Tappara')
+    const result = UTILS.getTopBreaker() + ' ' + this.scream('Tampere') + '\n - tappara'
+    return this.yell(result)
   }
 
   static scream (city) {
