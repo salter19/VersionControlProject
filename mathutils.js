@@ -100,6 +100,15 @@ class MathUtils {
     return (amount - wanted) / amount
   }
 
+  static combinationProbability (wantedArray, amount) {
+    let prop = 1
+    for (const item in wantedArray) {
+      prop = prop * (item / amount)
+      amount--
+    }
+    return prop
+  }
+
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
