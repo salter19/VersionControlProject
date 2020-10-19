@@ -15,6 +15,7 @@ class MsgHandler {
       2: caller.getHello(),
       3: caller.getKalinihta(),
       4: caller.getSayGoodbye(),
+      5: caller.getGoToSleep(),
       666: caller.getUpTheIrons(),
       42: caller.get42(),
       1985: this.scream('Long Beach'),
