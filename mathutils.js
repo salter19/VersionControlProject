@@ -102,7 +102,6 @@ class MathUtils {
 
   static combinationProbability (wantedArray, amount) {
     let prop = 1
-    console.log(wantedArray)
     for (const i in wantedArray) {
       prop = prop * (wantedArray[i] / amount)
       amount--
