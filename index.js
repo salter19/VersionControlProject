@@ -49,6 +49,7 @@ const main = () => {
   console.log(MATH.sumInner(5)(5))
   console.log(MATH.countBMI(170, 75))
   console.log('Area: ' + MATH.area(2, 2))
+  console.log('Propability to get 3 in dice: ' + MATH.probability(1, 6))
 }
 
 main()
