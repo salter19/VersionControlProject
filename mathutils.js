@@ -88,6 +88,10 @@ class MathUtils {
     return Math.PI * Math.pow(radius, 2)
   }
 
+  static area (stem, height) {
+    return stem * height
+  }
+
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
