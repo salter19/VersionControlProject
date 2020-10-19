@@ -48,6 +48,7 @@ const main = () => {
   MATH.countPercents(1000, 12)
   console.log(MATH.sumInner(5)(5))
   console.log(MATH.countBMI(170, 75))
+  console.log('Area: ' + MATH.area(2, 2))
 }
 
 main()
