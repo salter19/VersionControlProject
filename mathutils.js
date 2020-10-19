@@ -96,6 +96,10 @@ class MathUtils {
     return wanted / amount
   }
 
+  static probabilityNotHappen (wanted, amount) {
+    return (amount - wanted) / amount
+  }
+
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
