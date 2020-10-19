@@ -36,8 +36,8 @@ class MathUtils {
     return a - b
   }
 
-  static countBMI(height,weight) {
-    if(height < 3) {
+  static countBMI (height, weight) {
+    if (height < 3) {
       return 'Please insert the height in centimeters.'
     } else {
       console.log("Your height is: " + height)
