@@ -88,6 +88,27 @@ class MathUtils {
     return Math.PI * Math.pow(radius, 2)
   }
 
+  static area (stem, height) {
+    return stem * height
+  }
+
+  static probability (wanted, amount) {
+    return wanted / amount
+  }
+
+  static probabilityNotHappen (wanted, amount) {
+    return (amount - wanted) / amount
+  }
+
+  static combinationProbability (wantedArray, amount) {
+    let prop = 1
+    for (const i in wantedArray) {
+      prop = prop * (wantedArray[i] / amount)
+      amount--
+    }
+    return prop
+  }
+
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
