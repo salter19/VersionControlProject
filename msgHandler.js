@@ -18,7 +18,8 @@ class MsgHandler {
       4: caller.getSayGoodbye(),
       666: caller.getUpTheIrons(),
       42: caller.get42(),
-      1985: this.scream('Long Beach')
+      1985: this.scream('Long Beach'),
+      2020: this.feelTheGame()
     }
 
     // if given value is found in options, foundIt is set true.
@@ -56,6 +57,9 @@ class MsgHandler {
     return this.yell('Scream for me ' + city)
   }
 
+  static goToSleep () {
+    return 'Well, nighty night then!'
+  }
 }
 
 module.exports = MsgHandler
