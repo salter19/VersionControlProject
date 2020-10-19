@@ -105,7 +105,6 @@ class MathUtils {
     console.log(wantedArray)
     for (const i in wantedArray) {
       prop = prop * (wantedArray[i] / amount)
-      console.log('prop: ' + prop)
       amount--
     }
     return prop
