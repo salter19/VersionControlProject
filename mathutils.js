@@ -36,14 +36,14 @@ class MathUtils {
     return a - b
   }
 
-  static countBMI(height,weight) {
-    if(height < 3) {
+  static countBMI (height, weight) {
+    if (height < 3) {
       return 'Please insert the height in centimeters.'
     } else {
-      console.log("Your height is: " + height)
-      console.log("Your weight is: " + weight)
-      console.log("Your BMI is: " + weight/(height/100)/(height/100))
-      return weight / (height / 100) / (height / 100)
+      // console.log("Your height is: " + height)
+      // console.log("Your weight is: " + weight)
+      // console.log("Your BMI is: " + weight/(height/100)/(height/100))
+      return 'Your BMI is: ' + weight / (height / 100) / (height / 100)
     }
   }
 
@@ -52,7 +52,7 @@ class MathUtils {
   }
 
   static multiply (a, b) {
-    console.log(a + ' * ' + b)
+    // console.log(a + ' * ' + b)
     return 'Result is ' + (a * b)
   }
 
