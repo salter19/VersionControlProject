@@ -17,7 +17,7 @@ class Hello {
     return 'Up The Irons!'
   }
 
-  static getSayCheese () {
+  static getCheer () {
     return 'Hey!'
   }
 
