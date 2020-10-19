@@ -43,7 +43,7 @@ class MathUtils {
       // console.log("Your height is: " + height)
       // console.log("Your weight is: " + weight)
       // console.log("Your BMI is: " + weight/(height/100)/(height/100))
-      return weight / (height / 100) / (height / 100)
+      return "Your BMI is: " + weight/(height/100)/(height/100)
     }
   }
 
