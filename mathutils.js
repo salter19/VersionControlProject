@@ -52,7 +52,6 @@ class MathUtils {
   }
 
   static multiply (a, b) {
-    // console.log(a + ' * ' + b)
     return a + ' * ' + b + ' = ' + (a * b)
   }
 
