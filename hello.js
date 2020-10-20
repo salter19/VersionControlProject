@@ -4,7 +4,7 @@ class Hello {
   }
 
   static getSayNothing () {
-    return '*akward silence*'
+    return '*total silence*'
   }
 
   static getSayGoodbye () {
