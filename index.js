@@ -57,6 +57,7 @@ const main = () => {
   console.log('Probability not to get 3 in dice: ' + MATH.probabilityNotHappen(1, 6))
   console.log('Probability to get yellow, red and white: ' + MATH.combinationProbability([4, 5, 11], 20))
   console.log(MATH.triangleAngle(40, 30))
+  console.log(MATH.eclipseArea(3, 5))
 }
 
 main()
