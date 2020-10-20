@@ -74,6 +74,10 @@ class MathUtils {
     return stem * height / 2
   }
 
+  static triangleAngle (first, second) {
+    return 180 - first - second
+  }
+
   static circumference (radius) {
     return 2 * radius * Math.PI
   }
@@ -88,6 +92,10 @@ class MathUtils {
 
   static area (stem, height) {
     return stem * height
+  }
+
+  static eclipseArea (minor, major) {
+    return minor * major * Math.PI
   }
 
   static probability (wanted, amount) {

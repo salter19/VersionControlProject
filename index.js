@@ -8,6 +8,7 @@ const HELLO = require('./hello.js')
 const MATH = require('./mathutils.js')
 const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
+const { triangleAngle } = require('./mathutils.js')
 
 const main = () => {
   console.log(HANDLER.yell('HellO WOrld! ').repeat(3))
@@ -18,10 +19,10 @@ const main = () => {
   console.log(HANDLER.getGreeting(HELLO, 42))
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 666)))
   console.log((HANDLER.yell(HANDLER.getGreeting(HELLO, 1)).repeat(6)))
+  console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(HANDLER.scream('Tampere'))
   console.log(HANDLER.getGreeting(HELLO, 2020).repeat(MATH.sum(2, 1)))
   console.log(HANDLER.goToSleep())
-  console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(UTILS.getBottomBreaker())
 
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(
@@ -55,6 +56,8 @@ const main = () => {
   console.log('Propability to get 3 in dice: ' + MATH.probability(1, 6))
   console.log('Probability not to get 3 in dice: ' + MATH.probabilityNotHappen(1, 6))
   console.log('Probability to get yellow, red and white: ' + MATH.combinationProbability([4, 5, 11], 20))
+  console.log(MATH.triangleAngle(40, 30))
+  console.log(MATH.eclipseArea(3, 5))
 }
 
 main()
