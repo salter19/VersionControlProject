@@ -90,6 +90,10 @@ class MathUtils {
     return stem * height
   }
 
+  static eclipseArea(minor, major) {
+    return minor * major * Math.PI
+  }
+
   static probability (wanted, amount) {
     return wanted / amount
   }
