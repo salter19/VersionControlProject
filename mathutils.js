@@ -115,6 +115,10 @@ class MathUtils {
     return Math.round(((prop) + Number.EPSILON) * 100) / 100
   }
 
+  static roundWithTwo (num) {
+    return Math.round(((num) + Number.EPSILON) * 100) / 100
+  }
+
   static poweroftwo (a) {
     console.log('Number 2 to the power of ' + a)
     return 'Result is ' + Math.pow(2, a)
