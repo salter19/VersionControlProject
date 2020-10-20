@@ -1,7 +1,6 @@
 class MathUtils {
   static sum (a, b) {
-    // console.log(a + ' + ' + b)
-    return a + b
+    return a + ' + ' + b + ' = ' + (a + b)
   }
 
   static sumOfThree (a, b, c) {
@@ -52,8 +51,7 @@ class MathUtils {
   }
 
   static multiply (a, b) {
-    // console.log(a + ' * ' + b)
-    return 'Result is ' + (a * b)
+    return a + ' * ' + b + ' = ' + (a * b)
   }
 
   static abs (a) {
