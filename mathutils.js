@@ -53,7 +53,7 @@ class MathUtils {
 
   static multiply (a, b) {
     // console.log(a + ' * ' + b)
-    return 'Result is ' + (a * b)
+    return a + ' * ' + b + ' = ' + (a * b)
   }
 
   static abs (a) {
