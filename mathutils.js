@@ -5,7 +5,7 @@ class MathUtils {
 
   static sumOfThree (a, b, c) {
     // console.log(a + ' + ' + b + ' + ' + c)
-    return a + b + c
+    return a + " + " + b + " + " + c + " = " + (a + b + c)
   }
 
   static getOnePercent (a) {
