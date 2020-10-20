@@ -16,7 +16,7 @@ class Hello {
   }
 
   static getCheer () {
-    return 'Hey!'
+    return '\'ey!'
   }
 
   static getKalinihta () {
