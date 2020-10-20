@@ -99,11 +99,11 @@ class MathUtils {
   }
 
   static probability (wanted, amount) {
-    return wanted / amount
+    return Math.round(((wanted / amount) + Number.EPSILON) * 100) / 100
   }
 
   static probabilityNotHappen (wanted, amount) {
-    return (amount - wanted) / amount
+    return Math.round((((amount - wanted) / amount) + Number.EPSILON) * 100) / 100
   }
 
   static combinationProbability (wantedArray, amount) {
@@ -112,7 +112,7 @@ class MathUtils {
       prop = prop * (wantedArray[i] / amount)
       amount--
     }
-    return prop
+    return Math.round(((prop) + Number.EPSILON) * 100) / 100
   }
 
   static poweroftwo (a) {
