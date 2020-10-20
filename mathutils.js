@@ -1,7 +1,7 @@
 class MathUtils {
   static sum (a, b) {
     // console.log(a + ' + ' + b)
-    return a + " + " + b + " = " + (a + b)
+    return a + ' + ' + b + ' = ' + (a + b)
   }
 
   static sumOfThree (a, b, c) {
