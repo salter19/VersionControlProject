@@ -90,7 +90,7 @@ class MathUtils {
     return stem * height
   }
 
-  static eclipseArea(minor, major) {
+  static eclipseArea (minor, major) {
     return minor * major * Math.PI
   }
 
