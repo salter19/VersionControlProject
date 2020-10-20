@@ -14,7 +14,7 @@ const main = () => {
   console.log(HANDLER.yell('HellO WOrld! ').repeat(3))
 
   console.log(UTILS.getTopBreaker())
-  console.log('GEt GrEEtinG:')
+  console.log(UTILS.getLine()+'GEt GrEEtinG:')
   console.log(HANDLER.getGreeting(HELLO, 4))
   console.log(HANDLER.getGreeting(HELLO, 42))
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 666)))
