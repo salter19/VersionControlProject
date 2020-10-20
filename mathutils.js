@@ -8,7 +8,7 @@ class MathUtils {
   }
 
   static getOnePercent (a) {
-    return '1 % of ' + a + " = " + (a / 100);
+    return '1 % of ' + a + ' = ' + (a / 100)
   }
 
   static countPercents (value, percent) {
