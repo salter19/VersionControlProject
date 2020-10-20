@@ -4,7 +4,7 @@ class MathUtils {
   }
 
   static sumOfThree (a, b, c) {
-    return a + " + " + b + " + " + c + " = " + (a + b + c)
+    return a + ' + ' + b + ' + ' + c + ' = ' + (a + b + c)
   }
 
   static getOnePercent (a) {
