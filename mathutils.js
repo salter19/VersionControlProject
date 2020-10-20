@@ -95,7 +95,7 @@ class MathUtils {
   }
 
   static eclipseArea (minor, major) {
-    return minor * major * Math.PI
+    return Math.round(((minor * major * Math.PI) + Number.EPSILON) * 100) / 100
   }
 
   static probability (wanted, amount) {
