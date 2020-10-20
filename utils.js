@@ -6,6 +6,9 @@ class Utils {
   static getBottomBreaker () {
     return '-'.repeat(3) + '\n'
   }
+  static getLine () {
+    return ' - ';
+  }
 }
 
 module.exports = Utils

@@ -10,7 +10,7 @@ const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
 
 const main = () => {
-  console.log(HANDLER.yell('HellO WOrld!'))
+  console.log(HANDLER.yell('HellO WOrld! ').repeat(3))
 
   console.log(UTILS.getTopBreaker())
   console.log('GEt GrEEtinG:')
@@ -21,13 +21,15 @@ const main = () => {
   console.log(HANDLER.scream('Tampere'))
   console.log(HANDLER.getGreeting(HELLO, 2020).repeat(MATH.sum(2, 1)))
   console.log(HANDLER.goToSleep())
+  console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(UTILS.getBottomBreaker())
 
   console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(
     MATH.sum(40, 2)))) + ' and hello world.')
-  console.log(HANDLER.getGreeting(HELLO, 1985))
+  console.log(UTILS.getLine()+HANDLER.getGreeting(HELLO, 1985))
   console.log(HANDLER.getGreeting(HELLO, 0))
-  console.log(HANDLER.getGreeting(HELLO, 1985))
+  console.log(UTILS.getLine()+HANDLER.getGreeting(HELLO, 1985))
+  console.log(HANDLER.yell(HANDLER.getGreeting(HELLO ,0)))
   console.log(UTILS.getBottomBreaker().repeat(1))
 
   console.log(MATH.sum(40, 2))

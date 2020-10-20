@@ -8,7 +8,7 @@ class Hello {
   }
 
   static getSayGoodbye () {
-    return 'Good Bye!'
+    return 'Auf Wiedersehen!'
   }
 
   static getUpTheIrons () {
