@@ -24,10 +24,10 @@ const main = () => {
   console.log(HANDLER.getGreeting(HELLO, 2020).repeat(MATH.sum(2, 1)))
   console.log(UTILS.getBottomBreaker())
 
-  console.log(
-    HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(MATH.sum(40, 2)))) +
-      ' and hello world.'
-  )
+  // console.log(
+  //  HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(MATH.sum(40, 2)))) +
+  //    ' and hello world.'
+  // )
   console.log(UTILS.getLine() + HANDLER.getGreeting(HELLO, 1985))
   console.log(HANDLER.getGreeting(HELLO, 0))
   console.log(UTILS.getLine() + HANDLER.getGreeting(HELLO, 1985))
