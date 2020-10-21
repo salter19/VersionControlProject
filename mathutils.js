@@ -110,7 +110,7 @@ class MathUtils {
       prop = prop * (wantedArray[i] / amount)
       amount--
     }
-    return Math.round(((prop) + Number.EPSILON) * 100) / 100
+    return this.roundWithTwo(prop)
   }
 
   static roundWithTwo (num) {
