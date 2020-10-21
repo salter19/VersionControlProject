@@ -40,7 +40,7 @@ class MathUtils {
       // console.log("Your height is: " + height)
       // console.log("Your weight is: " + weight)
       // console.log("Your BMI is: " + weight/(height/100)/(height/100))
-      return 'Your BMI is: ' + weight / (height / 100) / (height / 100)
+      return 'Your BMI is: ' + this.roundWithTwo(weight / (height / 100) / (height / 100))
     }
   }
 
@@ -93,15 +93,15 @@ class MathUtils {
   }
 
   static eclipseArea (minor, major) {
-    return minor * major * Math.PI
+    return Math.round(((minor * major * Math.PI) + Number.EPSILON) * 100) / 100
   }
 
   static probability (wanted, amount) {
-    return wanted / amount
+    return Math.round(((wanted / amount) + Number.EPSILON) * 100) / 100
   }
 
   static probabilityNotHappen (wanted, amount) {
-    return (amount - wanted) / amount
+    return Math.round((((amount - wanted) / amount) + Number.EPSILON) * 100) / 100
   }
 
   static combinationProbability (wantedArray, amount) {
@@ -110,7 +110,11 @@ class MathUtils {
       prop = prop * (wantedArray[i] / amount)
       amount--
     }
-    return prop
+    return Math.round(((prop) + Number.EPSILON) * 100) / 100
+  }
+
+  static roundWithTwo (num) {
+    return Math.round(((num) + Number.EPSILON) * 100) / 100
   }
 
   static poweroftwo (a) {
