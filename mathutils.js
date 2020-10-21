@@ -85,7 +85,7 @@ class MathUtils {
   }
 
   static circleArea (radius) {
-    return Math.PI * Math.pow(radius, 2)
+    return this.roundWithTwo(Math.PI * Math.pow(radius, 2))
   }
 
   static area (stem, height) {
