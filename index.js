@@ -4,7 +4,6 @@ Please, do not fill main() with functions,
 but rather create new class for each feature.
 */
 
-//const HELLO = require("./hello.js");
 const MATH = require("./mathutils.js");
 const UTILS = require("./utils.js");
 const HANDLER = require("./msgHandler.js");
