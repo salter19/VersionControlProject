@@ -22,7 +22,7 @@ const main = () => {
   console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(HANDLER.scream('Tampere'))
   console.log(HANDLER.getGreeting(HELLO, 2020).repeat(MATH.sum(2, 1)))
-  console.log(UTILS.getBottomBreaker())
+  // console.log(UTILS.getBottomBreaker())
 
   // console.log(
   //  HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(MATH.sum(40, 2)))) +
