@@ -12,11 +12,11 @@ class MathUtils {
   }
 
   static countPercents (value, percent) {
-    return percent + "% of value " + value + " = " + (percent / 100 * value)
+    return percent + '% of value ' + value + ' = ' + (percent / 100 * value)
   }
 
   static addVAT (value) {
-    return value + (" (VAT 0%) => ") + value * 1.24 + (" (VAT 24%)")
+    return value + (' (VAT 0%) => ') + value * 1.24 + (' (VAT 24%)')
   }
 
   static countValueWithoutVAT (value) {
