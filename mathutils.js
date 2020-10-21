@@ -12,7 +12,6 @@ class MathUtils {
   }
 
   static countPercents (value, percent) {
-    console.log(percent + '% of value ' + value + ' is: ' + percent / 100 * value)
     return percent + "% of value " + value + " = " + (percent / 100 * value)
   }
 
