@@ -93,11 +93,11 @@ class MathUtils {
   }
 
   static eclipseArea (minor, major) {
-    return this.roundWithTwo(((minor * major * Math.PI) + Number.EPSILON) * 100) / 100
+    return this.roundWithTwo(minor * major * Math.PI)
   }
 
   static probability (wanted, amount) {
-    return Math.round(((wanted / amount) + Number.EPSILON) * 100) / 100
+    return this.round(wanted / amount)
   }
 
   static probabilityNotHappen (wanted, amount) {
