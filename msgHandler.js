@@ -57,9 +57,11 @@ class MsgHandler {
     return this.yell('Scream for me ' + city)
   }
 
+/*
   static goToSleep () {
     return 'Well, nighty night then!'
   }
+*/
 }
 
 module.exports = MsgHandler
