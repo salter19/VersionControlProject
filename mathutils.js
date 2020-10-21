@@ -97,11 +97,11 @@ class MathUtils {
   }
 
   static probability (wanted, amount) {
-    return this.round(wanted / amount)
+    return this.roundWithTwo(wanted / amount)
   }
 
   static probabilityNotHappen (wanted, amount) {
-    return Math.round((((amount - wanted) / amount) + Number.EPSILON) * 100) / 100
+    return this.roundWithTwo((amount - wanted) / amount)
   }
 
   static combinationProbability (wantedArray, amount) {
