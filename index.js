@@ -33,6 +33,7 @@ const main = () => {
   console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
   console.log(HANDLER.yell(HANDLER.getGreeting(0)))
   console.log(UTILS.getLine() + HANDLER.getGreeting(5))
+  console.log('');
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
