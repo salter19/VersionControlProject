@@ -13,7 +13,7 @@ const main = () => {
   console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(3))
 
   console.log(UTILS.getTopBreaker())
-  console.log(UTILS.getLine() + 'GEt GrEEtinG:')
+  console.log(UTILS.getLine() + 'Here are some greetings for you:')
   console.log(HANDLER.getGreeting(4))
   console.log(HANDLER.getGreeting(42))
   console.log(HANDLER.yell(HANDLER.getGreeting(666)))
