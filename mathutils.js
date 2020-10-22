@@ -27,7 +27,7 @@ class MathUtils {
 
   static subtract (a, b) {
     // console.log(a + ' - ' + b)
-    return a - b
+    return a + " - " + b + " = " + (a - b)
   }
 
   static countBMI (height, weight) {
