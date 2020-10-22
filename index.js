@@ -4,7 +4,6 @@ Please, do not fill main() with functions,
 but rather create new class for each feature.
 */
 
-const HELLO = require('./hello.js')
 const MATH = require('./mathutils.js')
 const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
@@ -15,25 +14,25 @@ const main = () => {
 
   console.log(UTILS.getTopBreaker())
   console.log(UTILS.getLine() + 'GEt GrEEtinG:')
-  console.log(HANDLER.getGreeting(HELLO, 4))
-  console.log(HANDLER.getGreeting(HELLO, 42))
-  console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 666)))
-  console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 1)).repeat(6))
+  console.log(HANDLER.getGreeting(4))
+  console.log(HANDLER.getGreeting(42))
+  console.log(HANDLER.yell(HANDLER.getGreeting(666)))
+  console.log(HANDLER.yell(HANDLER.getGreeting(1)).repeat(6))
   console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(HANDLER.scream('Tampere'))
-  console.log(HANDLER.getGreeting(HELLO, 2020).repeat(MATH.sum(2, 1)))
+  console.log(HANDLER.getGreeting(2020).repeat(MATH.sum(2, 1)))
+  console.log(HANDLER.getGreeting(5))
   // console.log(UTILS.getBottomBreaker())
 
   // console.log(
-  //  HANDLER.yell(HANDLER.getGreeting(HELLO, parseInt(MATH.sum(40, 2)))) +
+  //  HANDLER.yell(HANDLER.getGreeting(parseInt(MATH.sum(40, 2)))) +
   //    ' and hello world.'
   // )
-  console.log(UTILS.getLine() + HANDLER.getGreeting(HELLO, 1985))
-  console.log(HANDLER.getGreeting(HELLO, 0))
-  console.log(UTILS.getLine() + HANDLER.getGreeting(HELLO, 1985))
-  console.log(HANDLER.yell(HANDLER.getGreeting(HELLO, 0)))
-  console.log(UTILS.getLine() + HANDLER.getGreeting(HELLO, 5))
-  console.log(UTILS.getBottomBreaker().repeat(1))
+  console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
+  console.log(HANDLER.getGreeting(0))
+  console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
+  console.log(HANDLER.yell(HANDLER.getGreeting(0)))
+  console.log(UTILS.getLine() + HANDLER.getGreeting(5))
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
