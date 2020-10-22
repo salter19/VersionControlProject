@@ -31,8 +31,10 @@ class MathUtils {
   }
 
   static countBMI (height, weight) {
-    if (height > 0 && height < 3) {
+    if (height >= 0 && height < 3) {
       return 'Please insert the height in centimeters.'
+    } else if (height < 0) {
+      return "Height can't be negative"
     } else {
       return "Your height is: " + height + "\nYour weight is: " + weight +
         "\nYour BMI is: " + this.roundWithTwo(weight / (height / 100) / (height / 100))
