@@ -2,22 +2,25 @@
  * Use for handling messages.
  */
 const UTILS = require('./utils.js')
+const HELLO = require('./hello.js')
 
 class MsgHandler {
-  static getGreeting (caller, input) {
+
+  static getGreeting (input) {
+
     const value = !isNaN(input) && Number.isInteger(input) ? input : -1
     let foundIt = false
     let result = -1
 
     const options = {
-      0: caller.getSayNothing(),
-      1: caller.getCheer(),
-      2: caller.getHello(),
-      3: caller.getKalinihta(),
-      4: caller.getSayGoodbye(),
-      5: caller.getGoToSleep(),
-      666: caller.getUpTheIrons(),
-      42: caller.get42(),
+      0: HELLO.getSayNothing(),
+      1: HELLO.getCheer(),
+      2: HELLO.getHello(),
+      3: HELLO.getKalinihta(),
+      4: HELLO.getSayGoodbye(),
+      5: HELLO.getGoToSleep(),
+      666: HELLO.getUpTheIrons(),
+      42: HELLO.get42(),
       1985: this.scream('Long Beach'),
       2020: this.feelTheGame()
     }
