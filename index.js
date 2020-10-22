@@ -10,7 +10,7 @@ const HANDLER = require('./msgHandler.js')
 const { triangleAngle } = require('./mathutils.js')
 
 const main = () => {
-  console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(3))
+  console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(2))
 
   console.log(UTILS.getTopBreaker())
   console.log(UTILS.getLine() + 'Here are some greetings for you:')
