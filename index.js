@@ -16,6 +16,7 @@ const main = () => {
   console.log(UTILS.getTopBreaker());
   const f = new FUNC("Manse");
   console.log(f.func1());
+  console.log(f.func2());
   console.log(UTILS.getLine() + "GEt GrEEtinG:");
   console.log(HANDLER.getGreeting(4));
   console.log(HANDLER.getGreeting(42));
