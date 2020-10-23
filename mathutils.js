@@ -123,6 +123,10 @@ class MathUtils {
     const inner = (b) => a + b
     return inner
   }
+
+  static innerCircleRadius (side1, side2, side3, area) {
+    return (2 * area) / (side1 + side2 + side3)
+  }
 }
 
 module.exports = MathUtils
