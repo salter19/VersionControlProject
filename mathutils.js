@@ -62,7 +62,7 @@ class MathUtils {
   }
 
   static stemOrHeight (hypotenuse, side) {
-    return Math.sqrt(Math.pow(hypotenuse, 2) - Math.pow(side, 2))
+    return this.roundWithTwo(Math.sqrt(Math.pow(hypotenuse, 2) - Math.pow(side, 2)))
   }
 
   static rightTriagleArea (stem, height) {
