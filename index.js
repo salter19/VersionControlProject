@@ -7,7 +7,6 @@ but rather create new class for each feature.
 const MATH = require('./mathutils.js')
 const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
-const { triangleAngle } = require('./mathutils.js')
 const FUNC = require('./msgFunc')
 
 const main = () => {
@@ -38,7 +37,7 @@ const main = () => {
   console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
   console.log(HANDLER.yell(HANDLER.getGreeting(0)))
   console.log(UTILS.getLine() + HANDLER.getGreeting(5))
-  console.log('');
+  console.log('')
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
