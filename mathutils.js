@@ -78,7 +78,7 @@ class MathUtils {
   }
 
   static circleRadius (circumference) {
-    return circumference / (2 * Math.PI)
+    return this.roundWithTwo(circumference / (2 * Math.PI))
   }
 
   static circleArea (radius) {
