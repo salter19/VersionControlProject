@@ -58,7 +58,7 @@ class MathUtils {
   }
 
   static hypotenuse (stem, height) {
-    return Math.sqrt(Math.pow(stem, 2) + Math.pow(height, 2))
+    return this.roundWithTwo(Math.sqrt(Math.pow(stem, 2) + Math.pow(height, 2)))
   }
 
   static stemOrHeight (hypotenuse, side) {
