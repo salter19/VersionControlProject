@@ -69,6 +69,7 @@ const main = () => {
   )
   console.log(MATH.triangleAngle(40, 30))
   console.log(MATH.eclipseArea(3, 5))
+  console.log(MATH.innerCircleRadius(3, 4, 5, MATH.rightTriagleArea(3, 4)))
 }
 
 main()
