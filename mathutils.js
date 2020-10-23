@@ -74,7 +74,7 @@ class MathUtils {
   }
 
   static circumference (radius) {
-    return 2 * radius * Math.PI
+    return this.roudWithTwo(2 * radius * Math.PI)
   }
 
   static circleRadius (circumference) {
