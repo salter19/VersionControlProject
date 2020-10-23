@@ -10,10 +10,10 @@ const HANDLER = require('./msgHandler.js')
 const { triangleAngle } = require('./mathutils.js')
 
 const main = () => {
-  console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(3))
+  console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(2))
 
   console.log(UTILS.getTopBreaker())
-  console.log(UTILS.getLine() + 'GEt GrEEtinG:')
+  console.log(UTILS.getLine() + 'Here are some greetings for you:')
   console.log(HANDLER.getGreeting(4))
   console.log(HANDLER.getGreeting(42))
   console.log(HANDLER.yell(HANDLER.getGreeting(666)))
@@ -21,7 +21,7 @@ const main = () => {
   console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)))
   console.log(HANDLER.scream('Tampere'))
   console.log(HANDLER.getGreeting(2020).repeat(MATH.sum(2, 1)))
-  console.log(HANDLER.getGreeting(5))
+  // console.log(HANDLER.getGreeting(5))
   // console.log(UTILS.getBottomBreaker())
 
   // console.log(
@@ -33,6 +33,7 @@ const main = () => {
   console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
   console.log(HANDLER.yell(HANDLER.getGreeting(0)))
   console.log(UTILS.getLine() + HANDLER.getGreeting(5))
+  console.log('');
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))

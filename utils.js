@@ -7,7 +7,7 @@ class Utils {
     return '-'.repeat(3) + '\n'
   }
   static getLine () {
-    return ' /-> ';
+    return ' -> ';
   }
 }
 
