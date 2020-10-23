@@ -8,12 +8,17 @@ const MATH = require('./mathutils.js')
 const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
 const { triangleAngle } = require('./mathutils.js')
+const FUNC = require('./msgFunc')
 
 const main = () => {
   console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(2))
 
   console.log(UTILS.getTopBreaker())
   console.log(UTILS.getLine() + 'Here are some greetings for you:')
+  const f = new FUNC('Manse')
+  console.log(f.func1())
+  console.log(f.func2())
+
   console.log(HANDLER.getGreeting(4))
   console.log(HANDLER.getGreeting(42))
   console.log(HANDLER.yell(HANDLER.getGreeting(666)))

@@ -5,9 +5,7 @@ const UTILS = require('./utils.js')
 const HELLO = require('./hello.js')
 
 class MsgHandler {
-
   static getGreeting (input) {
-
     const value = !isNaN(input) && Number.isInteger(input) ? input : -1
     let foundIt = false
     let result = -1
