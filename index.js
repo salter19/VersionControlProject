@@ -55,7 +55,7 @@ const main = () => {
   // console.log(MATH.getOnePercent(124))
   // console.log(MATH.addVAT(100))
   // console.log(MATH.countValueWithoutVAT(124))
-  MATH.countPercents(1000, 12)
+  console.log(MATH.countPercents(1000, 12))
   console.log(MATH.sumInner(5)(5))
   console.log(MATH.countBMI(170, 75))
   console.log('Area of square: ' + MATH.area(2, 2))
