@@ -22,7 +22,7 @@ class MathUtils {
   static countValueWithoutVAT (value) {
     // console.log('Price with VAT: ' + value)
     // console.log('Price without VAT: ' + value / 124 * 100)
-    return value + " (VAT 24%) => " + value / 124 * 100 + " (VAT 0%)"
+    return value + ' (VAT 24%) => ' + value / 124 * 100 + ' (VAT 0%)'
   }
 
   static subtract (a, b) {
