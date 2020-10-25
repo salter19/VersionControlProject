@@ -39,7 +39,7 @@ class MathUtils {
   }
 
   static divide (a, b) {
-    return (a / b)
+    return a + " / " + b + " = " + (a / b)
   }
 
   static multiply (a, b) {
