@@ -117,7 +117,7 @@ class MathUtils {
 
   static poweroftwo (a) {
     // console.log('Number 2 to the power of ' + a)
-    return 'Number 2 to the power of ' + a + ' = ' + Math.pow(2, a)
+    return '2 ^ ' + a + ' = ' + Math.pow(2, a)
   }
 
   static sumInner (a) {
