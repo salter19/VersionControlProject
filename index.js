@@ -33,7 +33,7 @@ const main = () => {
   // )
   console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
   console.log(HANDLER.getGreeting(0))
-  console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
+
   console.log(HANDLER.yell(HANDLER.getGreeting(0)))
   console.log(UTILS.getLine() + HANDLER.getGreeting(5))
   console.log('')
