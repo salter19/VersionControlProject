@@ -40,9 +40,9 @@ class MathUtils {
 
   static divide (a, b) {
     if (b === 0) {
-      return "Can't divide with zero."
+      return 'Can\'t divide with zero.'
     } else {
-      return a + " / " + b + " = " + (a / b)
+      return a + ' / ' + b + ' = ' + (a / b)
     }
   }
 
