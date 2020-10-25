@@ -39,7 +39,11 @@ class MathUtils {
   }
 
   static divide (a, b) {
-    return a + " / " + b + " = " + (a / b)
+    if (b === 0) {
+      return "Can't divide with zero."
+    } else {
+      return a + " / " + b + " = " + (a / b)
+    }
   }
 
   static multiply (a, b) {
