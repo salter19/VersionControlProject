@@ -13,7 +13,7 @@ const main = () => {
   console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(2))
 
   console.log(UTILS.getTopBreaker())
-  console.log(UTILS.getLine() + 'Here are some greetings for you:')
+  console.log(UTILS.getLine() + 'Here are some lyrics for the song:')
   const f = new FUNC('Manse')
   console.log(f.func1())
   console.log(f.func2())
