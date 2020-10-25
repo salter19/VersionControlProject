@@ -36,6 +36,7 @@ const main = () => {
   console.log(UTILS.getLine() + HANDLER.scream('Tampere'));
   console.log(HANDLER.yell(HANDLER.getGreeting(0)))
   console.log(UTILS.getLine() + HANDLER.getGreeting(5))
+  console.log(HANDLER.yell(HANDLER.getGreeting(4)))
   console.log('')
 
   console.log(MATH.sum(40, 2))
