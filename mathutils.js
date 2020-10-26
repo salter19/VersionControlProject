@@ -20,13 +20,10 @@ class MathUtils {
   }
 
   static countValueWithoutVAT (value) {
-    // console.log('Price with VAT: ' + value)
-    // console.log('Price without VAT: ' + value / 124 * 100)
-    return value / 124 * 100
+    return value + ' (VAT 24%) => ' + value / 124 * 100 + ' (VAT 0%)'
   }
 
   static subtract (a, b) {
-    // console.log(a + ' - ' + b)
     return a + '-' + b + '=' + (a - b)
   }
 
@@ -42,7 +39,11 @@ class MathUtils {
   }
 
   static divide (a, b) {
-    return (a / b)
+    if (b === 0) {
+      return 'Can\'t divide with zero.'
+    } else {
+      return a + ' / ' + b + ' = ' + (a / b)
+    }
   }
 
   static multiply (a, b) {
@@ -115,8 +116,7 @@ class MathUtils {
   }
 
   static poweroftwo (a) {
-    console.log('Number 2 to the power of ' + a)
-    return 'Result is ' + Math.pow(2, a)
+    return '2 ^ ' + a + ' = ' + Math.pow(2, a)
   }
 
   static sumInner (a) {
