@@ -1,16 +1,23 @@
-const MsgFunc = function (city) {
-  if (this instanceof MsgFunc) {
+class MsgFunc {
+  constructor (city) {
     this.city = city
-    console.log('how do yo do')
-    this.func1 = function () {
-      return 'do you do, the things that you do'
-    }
-    this.func2 = function () {
-      return 'Finally I got the freaking syntax right!'
-    }
-  } else {
-    throw new TypeError('Please use keyword new.')
+    this.func1 = this.func1.bind(this)
+  }
+
+  func1 () {
+    return `Hello ${this.city}`
+  }
+
+  func2 () {
+    return 'Finally I got the freaking syntax right!'
+  }
+
+  delayedFunc1 () {
+    setTimeout(this.func1, 2000)
+  }
+
+  func3 () {
+    return this.func1
   }
 }
-
 module.exports = MsgFunc

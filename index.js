@@ -8,15 +8,17 @@ const MATH = require('./mathutils.js')
 const UTILS = require('./utils.js')
 const HANDLER = require('./msgHandler.js')
 const FUNC = require('./msgFunc')
+const MsgFunc = require('./msgFunc')
+const func = new MsgFunc('manse')
 
 const main = () => {
   console.log(HANDLER.yell('HellO WOrld! ' + UTILS.getLine()).repeat(2))
 
   console.log(UTILS.getTopBreaker())
   console.log(UTILS.getLine() + 'Here are some lyrics for the song:')
-  const f = new FUNC('Manse')
-  console.log(f.func1())
-  console.log(f.func2())
+  console.log(func)
+  console.log(func.func2())
+  console.log(func.delayedFunc1())
 
   console.log(HANDLER.getGreeting(4))
   console.log(HANDLER.getGreeting(42))
@@ -33,7 +35,7 @@ const main = () => {
   // )
   console.log(UTILS.getLine() + HANDLER.getGreeting(1985))
   console.log(HANDLER.getGreeting(0))
-  console.log(UTILS.getLine() + HANDLER.scream('Tampere'));
+  console.log(UTILS.getLine() + HANDLER.scream('Tampere'))
   console.log(HANDLER.yell(HANDLER.getGreeting(0)))
   console.log(UTILS.getLine() + HANDLER.getGreeting(5))
   console.log(HANDLER.yell(HANDLER.getGreeting(4)))
@@ -69,7 +71,10 @@ const main = () => {
   )
   console.log(MATH.triangleAngle(40, 30))
   console.log(MATH.eclipseArea(3, 5))
-  console.log('Radius of inner circle of triangle: ' + MATH.innerCircleRadius(3, 4, 5, MATH.rightTriagleArea(3, 4)))
+  console.log(
+    'Radius of inner circle of triangle: ' +
+      MATH.innerCircleRadius(3, 4, 5, MATH.rightTriagleArea(3, 4))
+  )
 }
 
 main()
