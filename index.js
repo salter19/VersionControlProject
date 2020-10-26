@@ -24,13 +24,6 @@ const main = () => {
   console.log(HANDLER.yell(HANDLER.getGreeting(1)).repeat(6));
   console.log(HANDLER.feelTheGame().repeat(MATH.sum(2, 1)));
   console.log(HANDLER.getGreeting(2020).repeat(MATH.sum(2, 1)));
-  // console.log(HANDLER.getGreeting(5))
-  // console.log(UTILS.getBottomBreaker())
-
-  // console.log(
-  //  HANDLER.yell(HANDLER.getGreeting(parseInt(MATH.sum(40, 2)))) +
-  //    ' and hello world.'
-  // )
   console.log(UTILS.getLine() + HANDLER.getGreeting(1985));
   console.log(HANDLER.getGreeting(0));
   console.log(UTILS.getLine() + HANDLER.scream("Tampere"));
@@ -42,19 +35,6 @@ const main = () => {
   console.log(MATH.sum(40, 2));
   console.log(MATH.sumOfThree(10, 10, 10));
   console.log(MATH.divide(100, 10));
-  // console.log('Division of 10/5 is: ' + MATH.divide(10, 5))
-  // console.log('Absolute of 3 is: ' + MATH.abs(3))
-  // console.log('Absolute of -3 is: ' + MATH.abs(-3))
-
-  // console.log('Hypotenuse of a right triangle (3, 4) is : ' + MATH.hypotenuse(3, 4))
-  // console.log('Stem of a right triangle (5, 3) is : ' + MATH.stemOrHeight(5, 3))
-  // console.log('Area of right triangle (3, 4) is : ' + MATH.rightTriagleArea(3, 4))
-  // console.log('Area of circle (r = 2) is : ' + MATH.circleArea(2))
-  // console.log('Circumference (r = 2) is : ' + MATH.circumference(2))
-  // console.log(MATH.poweroftwo(3))
-  // console.log(MATH.getOnePercent(124))
-  // console.log(MATH.addVAT(100))
-  // console.log(MATH.countValueWithoutVAT(124))
   console.log(MATH.countPercents(1000, 12));
   console.log(MATH.sumInner(5)(5));
   console.log(MATH.countBMI(170, 75));
