@@ -41,7 +41,7 @@ const main = () => {
 
   console.log(MATH.sum(40, 2))
   console.log(MATH.sumOfThree(10, 10, 10))
-  console.log(MATH.multiply(5, 120))
+  console.log(MATH.divide(100, 10))
   // console.log('Division of 10/5 is: ' + MATH.divide(10, 5))
   // console.log('Absolute of 3 is: ' + MATH.abs(3))
   // console.log('Absolute of -3 is: ' + MATH.abs(-3))
@@ -55,7 +55,7 @@ const main = () => {
   // console.log(MATH.getOnePercent(124))
   // console.log(MATH.addVAT(100))
   // console.log(MATH.countValueWithoutVAT(124))
-  MATH.countPercents(1000, 12)
+  console.log(MATH.countPercents(1000, 12))
   console.log(MATH.sumInner(5)(5))
   console.log(MATH.countBMI(170, 75))
   console.log('Area of square: ' + MATH.area(2, 2))
