@@ -8,15 +8,18 @@ const MATH = require("./mathutils.js");
 const UTILS = require("./utils.js");
 const HANDLER = require("./msgHandler.js");
 const FUNC = require("./msgFunc");
+const MsgFunc = require("./msgFunc");
+const func = new MsgFunc("manse");
 
 const main = () => {
   console.log(HANDLER.yell("HellO WOrld! " + UTILS.getLine()).repeat(2));
 
   console.log(UTILS.getTopBreaker());
   console.log(UTILS.getLine() + "Here are some greetings for you:");
-  console.log(FUNC.func1());
-  console.log(FUNC.func2());
-  console.log(FUNC.delayedFunc1());
+
+  console.log(func);
+  console.log(func.func2());
+  console.log(func.delayedFunc1());
 
   console.log(HANDLER.getGreeting(4));
   console.log(HANDLER.getGreeting(42));
