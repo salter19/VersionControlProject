@@ -2,6 +2,7 @@ class MsgFunc {
   constructor(city) {
     this.city = city;
     console.log("how do yo do");
+    this.func1 = this.func1.bind(this);
   }
 
   static func1() {
@@ -13,8 +14,7 @@ class MsgFunc {
   }
 
   static delayedFunc1() {
-    let _this = this;
-    setTimeout(() => _this.func1, 2000);
+    setTimeout(() => this.func1, 2000);
   }
 }
 module.exports = MsgFunc;
